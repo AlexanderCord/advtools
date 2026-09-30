@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ADVTOOLS — Internal tools</title>
+<meta name="description" content="The data and ad-ops tooling we built for our own operations: keyword corpus, cross-supplier inventory pipeline, mutation-capable Google Ads automation, attribution harness.">
+<meta name="theme-color" content="#08090B">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="statusbar"><div class="wrap">
+  <span><span class="dot"></span>Taking work — Q4 2026</span>
+  <span class="hide-sm">Remote · US &amp; EU hours</span>
+</div></div>
+
+<nav class="nav"><div class="wrap">
+  <a class="logo" href="index.html">ADV<b>TOOLS</b></a>
+  <div class="navlinks">
+    <a href="index.html">services</a>
+    <a href="tools.html" aria-current="page">tools</a>
+    <a href="cases.html">findings</a>
+    <a href="index.html#start">contact</a>
+  </div>
+</div></nav>
+
+<div class="hero"><div class="wrap">
+  <p class="tag">Internal tooling</p>
+  <h1>We build it for <em>ourselves</em> first.</h1>
+  <p class="sub">None of this is a product. It is the tooling we built to run our own paid acquisition and data work — and it is the reason an audit takes ten days instead of ten weeks. If you want any of it deployed in your stack, that is a build engagement.</p>
+</div></div>
+
+<section><div class="wrap">
+  <p class="slabel"><b>01</b> — data</p>
+  <h2>Research and inventory</h2>
+
+  <div class="tool">
+    <div class="hdr"><h3>Keyword corpus</h3><span class="stack">SQLite · DataForSEO · Semrush</span></div>
+    <p>A measured keyword database built to stop us trusting vendor headline numbers. Every row carries the metric we actually bid on, not the one the tool reports first.</p>
+    <div class="facts">
+      <div><b>144,000</b> keywords across <b>27</b> markets</div>
+      <div>entry bid and achieved CPC held as separate fields — conflating them is how models end up wrong by multiples</div>
+      <div>brand-term detection, junk-intent patterns and market exclusions enforced in the query layer, not as constants nobody reads</div>
+      <div>per-vendor billing model so a research pass has a known cost before it runs</div>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="hdr"><h3>Cross-supplier inventory pipeline</h3><span class="stack">GCP · Cloud SQL · Cloud Run · FastAPI</span></div>
+    <p>Normalises product inventory from three travel suppliers into one canonical entity model, so the same thing sold by different vendors resolves to one row.</p>
+    <div class="facts">
+      <div>nightly Cloud Run parser into Cloud SQL, IAM-private API surface</div>
+      <div>canonical place resolution with attraction-overlap grouping (same / similar)</div>
+      <div>Basic-Auth data explorer for browsing offers, entities and geography</div>
+      <div>the pipeline's most valuable output was a <b>negative</b>: of 1,178 entities, only <b>45</b> were genuinely multi-supplier — which killed the premise it was built on</div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>02</b> — ad operations</p>
+  <h2>Campaign automation</h2>
+
+  <div class="tool">
+    <div class="hdr"><h3>Mutation-capable Google Ads control plane</h3><span class="stack">Google Ads API v24 · Python · MCP</span></div>
+    <p>A fork of the read-only Google Ads MCP server with write operations added, wrapped in the safety rails you want when a model can create campaigns.</p>
+    <div class="facts">
+      <div>campaigns created <b>PAUSED by default</b> — nothing can spend without a human enabling it</div>
+      <div><b>validate_only</b> dry-run path, and a hard daily-budget ceiling</div>
+      <div>whole campaign built in a single <code>MutateGoogleAdsRequest</code> with temporary resource names, so a partial failure rolls back instead of leaving orphans</div>
+      <div>micros computed as exact multiples of the billable unit — float arithmetic here silently produces unbillable bids</div>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="hdr"><h3>Campaign launcher with preflight</h3><span class="stack">Python · Google Ads API</span></div>
+    <p>Declarative campaign definitions that fail before they touch the API rather than halfway through it.</p>
+    <div class="facts">
+      <div>ad text checked against headline and description limits <b>before any mutate</b> — a length violation mid-run leaves a campaign and ad group created with no ad in them</div>
+      <div>negative-keyword lists attached per campaign, because new campaigns do <b>not</b> inherit shared lists</div>
+      <div>ad rotation set on the ad group, never the campaign — the v24 API accepts the latter and ignores it</div>
+      <div>per-keyword max CPC, presence-only geo targeting, search network only</div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>03</b> — measurement</p>
+  <h2>Attribution harness</h2>
+
+  <div class="tool">
+    <div class="hdr"><h3>Click-to-outcome instrumentation</h3><span class="stack">GTM · Mixpanel · BigQuery · offline conversions</span></div>
+    <p>The stack we use to prove a click became revenue, rather than assuming it. Built after our own analytics disagreed with a partner's by an order of magnitude.</p>
+    <div class="facts">
+      <div>gclid captured at landing and carried to the subscriber or order record, so an offline outcome can be uploaded back weeks later</div>
+      <div>conversion fires on a <b>confirmed server response</b>, never on form submit — firing on submit counts leads that never arrived</div>
+      <div>outbound links instrumented as real anchors: a <code>window.open()</code> outbound is popup-blockable and a blocked one looks identical to a successful one in analytics</div>
+      <div>own-traffic exclusion enforced in every query, not left to the reader to remember</div>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="hdr"><h3>Search meta-aggregator</h3><span class="stack">Python · FastAPI · LLM extraction</span></div>
+    <p>A test-gated pipeline joining multi-supplier offers to cross-site review data, with LLM extraction costed per document before any batch runs.</p>
+    <div class="facts">
+      <div>789 offers across 6 countries, pipeline through BFF to UI</div>
+      <div><b>35/35</b> tests green as a release gate</div>
+      <div>extraction cost modelled per document up front, so a corpus-wide run has a price before it starts</div>
+    </div>
+  </div>
+</div></section>
+
+<section class="formzone"><div class="wrap">
+  <p class="slabel"><b>04</b> — next</p>
+  <h2>Want any of this in your stack?</h2>
+  <p class="lead">The pipeline and attribution work is a build engagement. The measurement review is the audit. Start with a scoping call and we will tell you which one you actually need.</p>
+  <div class="cta-row" style="margin-top:1.4rem">
+    <a class="btn btn-primary" href="index.html#start">Book a scoping call</a>
+    <a class="btn btn-ghost" href="cases.html">Read the findings</a>
+  </div>
+</div></section>
+
+<footer><div class="wrap row">
+  <span>ADVTOOLS — attribution and data engineering since 2015</span>
+  <a href="mailto:info@advtools.net">info@advtools.net</a>
+  <a href="index.html">services</a>
+  <a href="cases.html">findings</a>
+</div></footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

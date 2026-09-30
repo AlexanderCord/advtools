@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ADVTOOLS — Attribution &amp; Data Engineering</title>
+<meta name="description" content="Fixed-fee attribution audits, server-side tracking builds and warehouse pipelines. We reconcile ad spend against revenue you can actually bank. Travel, hospitality and EdTech platforms.">
+<meta name="theme-color" content="#08090B">
+<link rel="stylesheet" href="assets/styles.css">
+<!-- Google Ads global tag goes here before launch. Conversion fires from app.js. -->
+</head>
+<body>
+
+<div class="statusbar"><div class="wrap">
+  <span><span class="dot"></span>Taking work — Q4 2026</span>
+  <span class="hide-sm">Remote · US &amp; EU hours</span>
+</div></div>
+
+<nav class="nav"><div class="wrap">
+  <a class="logo" href="index.html">ADV<b>TOOLS</b></a>
+  <div class="navlinks">
+    <a href="index.html" aria-current="page">services</a>
+    <a href="tools.html">tools</a>
+    <a href="cases.html">findings</a>
+    <a href="#start">contact</a>
+  </div>
+</div></nav>
+
+<div class="hero"><div class="wrap">
+  <p class="tag">Attribution · Tracking · Data engineering</p>
+  <h1>Your ROAS is <em>fiction.</em> We tell you the real number.</h1>
+  <p class="sub">Platform-reported conversions stopped matching reality after iOS 14 and consent mode, and almost nobody rebuilt measurement properly. We reconcile ad spend against revenue you can actually bank — fixed fee, no retainer, and a fix list written so anyone can execute it.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="#start">Book a scoping call</a>
+    <a class="btn btn-ghost" href="cases.html">Read the findings</a>
+  </div>
+
+  <div class="term">
+    <div class="term-head"><i></i><i></i><i></i><span>reconciliation — sample output</span></div>
+<div class="term-body"><span class="c">$</span> advtools reconcile <span class="b">--window</span> 30d
+
+  reported conversions ..  <span class="g">1,284</span>
+  after dedup ..........  <span class="y">1,031</span>  <span class="c">-19.7%</span>
+  matched to an order ..  <span class="y">  412</span>  <span class="c">-60.0%</span>
+  margin-positive ......  <span class="r">  287</span>  <span class="c">-30.3%</span>
+
+  reported ROAS ........  <span class="g">4.8x</span>
+  actual ROAS ..........  <span class="r">1.6x</span>  <span class="c">← real</span>
+
+  <span class="c">you are bidding on the first number.</span>
+</div>
+  </div>
+
+  <div class="stats">
+    <div class="s"><div class="n">2015</div><div class="k">building ad and data automation since</div></div>
+    <div class="s"><div class="n">$1B+</div><div class="k">revenue scale of an OTA platform we built automation for</div></div>
+    <div class="s"><div class="n">144k</div><div class="k">keywords in our own research corpus</div></div>
+    <div class="s"><div class="n">27</div><div class="k">markets measured</div></div>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <p class="slabel"><b>01</b> — services</p>
+  <h2>Three fixed-fee engagements</h2>
+  <p class="lead">Each is priced before we start and delivered as a written report plus a walkthrough call with whoever will do the work. You keep the document.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="idx">01 / AUDIT</div>
+      <h3>Attribution audit</h3>
+      <p>What your spend actually produced, reconciled against orders — not platform-reported conversions.</p>
+      <ul>
+        <li>conversion-tracking teardown</li>
+        <li>spend-to-revenue reconciliation</li>
+        <li>consent-mode and modelling impact</li>
+        <li>30-day fix sequence</li>
+      </ul>
+      <div class="foot"><span class="price">$2,500</span><span class="dur">10 working days</span></div>
+    </div>
+
+    <div class="card">
+      <div class="idx">02 / BUILD</div>
+      <h3>Server-side tracking</h3>
+      <p>Server-side GTM on your own cloud, with the measurement you lost to ad blockers and ITP rebuilt properly.</p>
+      <ul>
+        <li>sGTM container on GCP, yours to keep</li>
+        <li>GA4 + Ads + Meta destinations</li>
+        <li>first-party cookie and consent handling</li>
+        <li>offline conversion upload pipeline</li>
+      </ul>
+      <div class="foot"><span class="price">$8,000</span><span class="dur">3 weeks</span></div>
+    </div>
+
+    <div class="card">
+      <div class="idx">03 / PIPELINE</div>
+      <h3>Warehouse &amp; pipeline</h3>
+      <p>BigQuery as the single source of truth: ad spend joined to orders joined to margin, refreshed nightly.</p>
+      <ul>
+        <li>GA4 export + ad-platform connectors</li>
+        <li>order and margin join</li>
+        <li>Looker Studio or your BI layer</li>
+        <li>documented, handover-ready</li>
+      </ul>
+      <div class="foot"><span class="price">$12,000</span><span class="dur">4–6 weeks</span></div>
+    </div>
+  </div>
+
+  <p style="margin-top:1.5rem;font-family:var(--mono);font-size:.78rem;color:var(--muted);border-left:2px solid var(--accent-dim);padding-left:.8rem;line-height:1.7">
+    Reference point: published estimates put the first-year cost of a DIY server-side setup at <b style="color:var(--accent);font-weight:500">$8,000–25,000</b> once implementation, hosting and maintenance are counted. Our build sits at the bottom of that range and you own the result.
+  </p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>02</b> — where we are strongest</p>
+  <h2>Travel, hospitality, EdTech</h2>
+  <p class="lead">Measurement breaks differently in these verticals, and a generalist will not find it in five working days.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="idx">TRAVEL &amp; OTA</div>
+      <h3>Supplier handoff</h3>
+      <p>Travel funnels lose attribution at the moment the user leaves for a supplier. Booking confirms on someone else's domain, the conversion lands nowhere, and the campaign that produced it looks dead.</p>
+      <ul><li>GDS / NDC / channel manager</li><li>look-to-book leakage</li><li>partner postback reconciliation</li></ul>
+    </div>
+    <div class="card">
+      <div class="idx">HOSPITALITY</div>
+      <h3>Rate and availability</h3>
+      <p>When displayed inventory and supplier inventory disagree, the gap shows up as cancellations and support load — and as conversions your ad platform already paid for.</p>
+      <ul><li>booking engine instrumentation</li><li>cancellation-adjusted ROAS</li><li>meta-search attribution</li></ul>
+    </div>
+    <div class="card">
+      <div class="idx">EDTECH</div>
+      <h3>Long enrolment cycles</h3>
+      <p>An enrolment closes weeks after the click. Optimise on form fills and Smart Bidding will reliably find you people who fill in forms and never enrol.</p>
+      <ul><li>lead-to-enrolment stitching</li><li>offline conversion upload</li><li>LMS / SIS join</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>03</b> — how it runs</p>
+  <h2>Read-only, start to report</h2>
+  <div class="term">
+    <div class="term-head"><i></i><i></i><i></i><span>engagement</span></div>
+<div class="term-body"><span class="g">day 0</span>     scoping call, 30 min, free
+          <span class="c">we say which fits. sometimes none.</span>
+
+<span class="g">day 1</span>     read-only access
+          <span class="c">never write access to production</span>
+
+<span class="g">day 2-4</span>   tracking verified FIRST
+          <span class="c">auditing on broken tracking gives</span>
+          <span class="c">confident nonsense</span>
+
+<span class="g">day 5-8</span>   reconciliation + search terms
+          <span class="c">each finding priced per month</span>
+
+<span class="g">day 9-10</span>  report + walkthrough
+          <span class="c">with your team, not just the buyer</span>
+</div>
+  </div>
+
+  <p style="margin-top:1.5rem;font-family:var(--mono);font-size:.8rem;color:var(--ink-2);border-left:2px solid var(--warn);padding-left:.85rem;line-height:1.7">
+    <b style="color:var(--warn)">We can build the fix. The fee does not change either way.</b><br>
+    There is no discount for buying the remediation — the one reliable tell that separates an audit from a sales call. Estimates are written so your own team or any agency can execute them, and where a cheaper route exists we name it.
+  </p>
+</div></section>
+
+<section class="formzone" id="start"><div class="wrap">
+  <p class="slabel"><b>04</b> — start</p>
+  <h2>Book a scoping call</h2>
+  <p class="lead">Thirty minutes, free, and we will tell you which engagement fits — including when the answer is none of them. One reply from a person, within a working day.</p>
+
+  <form data-kit novalidate>
+    <div class="field">
+      <label for="name">name</label>
+      <input id="name" name="name" type="text" required autocomplete="name">
+    </div>
+    <div class="field">
+      <label for="email">work email</label>
+      <input id="email" name="email" type="email" required autocomplete="email">
+    </div>
+    <div class="field">
+      <label for="company">company</label>
+      <input id="company" name="company" type="text" required autocomplete="organization">
+    </div>
+    <div class="field">
+      <label for="vertical">what do you run</label>
+      <select id="vertical" name="vertical" required>
+        <option value="">select</option>
+        <option>OTA or booking platform</option>
+        <option>Hotel or accommodation group</option>
+        <option>Tour or activity operator</option>
+        <option>EdTech or online school</option>
+        <option>Ecommerce or marketplace</option>
+        <option>B2B SaaS</option>
+        <option>Something else</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="service">which engagement</label>
+      <select id="service" name="service" required>
+        <option value="">select</option>
+        <option>Attribution audit</option>
+        <option>Server-side tracking build</option>
+        <option>Warehouse &amp; pipeline</option>
+        <option>Not sure — help me pick</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="monthly_spend">monthly ad spend</label>
+      <select id="monthly_spend" name="monthly_spend" required>
+        <option value="">select</option>
+        <option>Under $10k</option>
+        <option>$10k–50k</option>
+        <option>$50k–250k</option>
+        <option>Over $250k</option>
+        <option>Not running paid</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="note">what makes you think something is wrong</label>
+      <textarea id="note" name="note" required placeholder="A sentence is enough. &quot;The dashboard looks great and revenue is flat&quot; is a complete answer."></textarea>
+      <span class="hint">This is the question that tells us whether we can help.</span>
+    </div>
+    <button class="btn btn-primary" type="submit">Send</button>
+    <p class="formnote">No mailing list, no sequence, no drip. One reply from a person.</p>
+  </form>
+
+  <div class="msg ok"><b>Got it.</b><br>We will read it properly and reply within one working day, from a person rather than an autoresponder. If it is urgent, email <a href="mailto:info@advtools.net">info@advtools.net</a> and say so in the subject line.</div>
+  <div class="msg err"></div>
+</div></section>
+
+<footer><div class="wrap row">
+  <span>ADVTOOLS — attribution and data engineering since 2015</span>
+  <a href="mailto:info@advtools.net">info@advtools.net</a>
+  <a href="tools.html">tools</a>
+  <a href="cases.html">findings</a>
+</div></footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
