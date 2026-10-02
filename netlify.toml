@@ -1,0 +1,32 @@
+# Static publish — no build step, no dependencies.
+[build]
+  publish = "."
+  command = ""
+
+# Served over HTTPS on a subdomain, so lock the obvious headers down.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Pretty URLs so ad final-urls can be /tools rather than /tools.html
+[[redirects]]
+  from = "/tools"
+  to = "/tools.html"
+  status = 200
+[[redirects]]
+  from = "/cases"
+  to = "/cases.html"
+  status = 200
+[[redirects]]
+  from = "/findings"
+  to = "/cases.html"
+  status = 200

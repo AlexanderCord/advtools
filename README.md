@@ -73,7 +73,7 @@ Static files — any host works. Recommended: **Netlify** or **Cloudflare Pages*
 drag-and-drop the folder, then point a subdomain at it.
 
 ```
-CNAME  audit.advtools.net → <host>
+CNAME  new.advtools.net → <host>
 ```
 
 Subdirectory on the apex domain is marginally better for organic (the domain has
