@@ -227,3 +227,12 @@ footer .row{display:grid;gap:.35rem}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+/* ── obfuscated contact ───────────────────────────────────────────────────── */
+.contactbtn{
+  font:inherit;font-family:var(--mono);font-size:inherit;color:var(--accent);
+  background:none;border:0;border-bottom:1px dashed var(--accent-dim);
+  padding:0;cursor:pointer;letter-spacing:inherit;
+}
+.contactbtn:hover{border-bottom-style:solid}
+.contact-nojs{color:var(--muted)}

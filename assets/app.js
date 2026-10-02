@@ -105,7 +105,7 @@ var KIT_FIELDS = ['company', 'service', 'vertical', 'monthly_spend', 'note',
         if (okBox) { okBox.classList.add('show'); okBox.setAttribute('tabindex', '-1'); okBox.focus(); }
       })
       .catch(function (err) {
-        fail('That did not send. Email <a href="mailto:info@advtools.net">info@advtools.net</a> and we will pick it up from there.');
+        fail('That did not send. Reveal the contact address in the footer and mail us directly, and we will pick it up from there.');
         if (window.console) console.error('[advtools]', err);
       });
   });
