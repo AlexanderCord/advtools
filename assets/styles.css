@@ -236,3 +236,30 @@ footer .row{display:grid;gap:.35rem}
 }
 .contactbtn:hover{border-bottom-style:solid}
 .contact-nojs{color:var(--muted)}
+
+/* ── engagements ──────────────────────────────────────────────────────────── */
+.eng{border-top:1px solid var(--line);padding:1.5rem 0}
+.eng:last-of-type{border-bottom:1px solid var(--line)}
+.eng .metric{
+  font-family:var(--mono);font-weight:700;font-size:1.5rem;letter-spacing:-.04em;
+  color:var(--accent);line-height:1;margin-bottom:.15rem;font-variant-numeric:tabular-nums;
+}
+.eng .sector{
+  font-family:var(--mono);font-size:.63rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:.8rem;
+}
+.eng h3{font-size:1.02rem;margin-bottom:.5rem}
+.eng p{font-size:.93rem;color:var(--ink-2);margin:0 0 .7rem;max-width:62ch}
+.eng .outcome{
+  font-family:var(--mono);font-size:.76rem;color:var(--accent);
+  border-left:2px solid var(--accent-dim);padding-left:.75rem;line-height:1.6;margin-top:.85rem;
+}
+.eng .gap{
+  font-family:var(--mono);font-size:.72rem;color:var(--warn);
+  border-left:2px solid var(--warn);padding-left:.75rem;line-height:1.6;margin-top:.7rem;opacity:.85;
+}
+@media (min-width:640px){
+  .eng{display:grid;grid-template-columns:9.5rem 1fr;gap:1.6rem;padding:1.8rem 0}
+  .eng .metric{font-size:1.75rem}
+  .eng .sector{margin-bottom:0}
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ADVTOOLS — Findings</title>
+<title>ADVTOOLS — Work &amp; findings</title>
 <meta name="description" content="Measurement and attribution failures found in production, with the mechanism and the money implication. From our own operations and research.">
 <link rel="canonical" href="https://new.advtools.net/cases.html">
 <meta property="og:type" content="website">
@@ -29,20 +29,90 @@
   <div class="navlinks">
     <a href="index.html">services</a>
     <a href="tools.html">tools</a>
-    <a href="cases.html" aria-current="page">findings</a>
+    <a href="cases.html" aria-current="page">work</a>
     <a href="index.html#start">contact</a>
   </div>
 </div></nav>
 
 <div class="hero"><div class="wrap">
-  <p class="tag">Field notes</p>
-  <h1>Things that were <em>quietly wrong</em> in production.</h1>
-  <p class="sub">These come from our own operations and research, not from anonymised client work. We made most of these mistakes with our own money, which is a different kind of qualification — and it is the list an audit is looking for in your stack.</p>
+  <p class="tag">Work</p>
+  <h1>Built at scale. <em>Audited</em> under deadline.</h1>
+  <p class="sub">Twenty years of it: the internal automation behind an OTA that grew fifteenfold, ad tech serving thousands of hotels, an engineering function built from nothing, and security and due-diligence audits delivered in a week. Below that, the field notes — the specific things we find when we go looking.</p>
 </div></div>
 
 <section><div class="wrap">
-  <p class="slabel"><b>01</b> — measurement</p>
+  <p class="slabel"><b>01</b> — engagements</p>
+  <h2>What we have built and audited</h2>
+  <p class="lead">Selected work. Client names withheld; the scale and the mechanism are what matter here.</p>
+
+  <div class="eng">
+    <div><div class="metric">50 → 750</div><div class="sector">OTA / Travel</div></div>
+    <div>
+      <h3>Internal automation that made 15× growth operable</h3>
+      <p>An online travel agency grew from fifty people to seven hundred and fifty. We built the internal automation underneath it — the systems that absorbed work which would otherwise have been absorbed by headcount. Operations scaled on tooling rather than on hiring.</p>
+      <div class="outcome">→ the company went on to lead its market</div>
+    </div>
+  </div>
+
+  <div class="eng">
+    <div><div class="metric">1,000s</div><div class="sector">AdTech / Hospitality</div></div>
+    <div>
+      <h3>Ad tech serving thousands of hotels</h3>
+      <p>A platform running paid acquisition across thousands of hotel properties. We built the bidding, campaign and reporting automation behind it — the layer that decides where spend goes and proves what it returned.</p>
+      <div class="outcome">→ six figures saved in advertising cost</div>
+    </div>
+  </div>
+
+  <div class="eng">
+    <div><div class="metric">0 → 1</div><div class="sector">EdTech</div></div>
+    <div>
+      <h3>An engineering function built from nothing</h3>
+      <p>An online university with no technical organisation. We stood up IT, DevOps and software development from ground zero — hiring, architecture, delivery process and the infrastructure underneath all of it.</p>
+      <div class="outcome">→ from no engineering capability to a running function</div>
+    </div>
+  </div>
+
+  <div class="eng">
+    <div><div class="metric">1 week</div><div class="sector">Security</div></div>
+    <div>
+      <h3>Secure SDLC and cybersecurity audit</h3>
+      <p>A full secure-development-lifecycle and cybersecurity review delivered inside a single week. Scoped to a deadline rather than to a retainer, with findings ranked by exposure and a remediation path the client's own team could execute.</p>
+      <div class="outcome">→ delivered in 5 working days</div>
+    </div>
+  </div>
+
+  <div class="eng">
+    <div><div class="metric">DD</div><div class="sector">Investors</div></div>
+    <div>
+      <h3>Technical due diligence on startups</h3>
+      <p>Pre-transaction technical review for investors: architecture, scalability, technical debt expressed as remediation cost, security posture, IP ownership, and key-person risk — the single-developer dependency that reprices more deals than anything else on the list.</p>
+      <div class="outcome">→ findings written so they survive a negotiation</div>
+    </div>
+  </div>
+
+  <div class="eng">
+    <div><div class="metric">TTM</div><div class="sector">AI systems</div></div>
+    <div>
+      <h3>AI guardrails and architecture for shipping speed</h3>
+      <p>Quality guardrails around an AI system, with the architecture to match — evaluation gates, failure-mode handling and the structure that lets a team ship quickly without shipping something wrong. Speed and safety are usually traded against each other because the architecture forces the trade; it does not have to.</p>
+      <div class="outcome">→ faster time to market, without lowering the quality bar</div>
+    </div>
+  </div>
+
+  <div class="eng">
+    <div><div class="metric">Audit</div><div class="sector">Internal</div></div>
+    <div>
+      <h3>Internal audit</h3>
+      <p>Independent review of an organisation's own systems, process and delivery — commissioned from inside rather than by a buyer, and reported to the people who can act on it.</p>
+      <div class="outcome">→ findings ranked by cost and executable in-house</div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>02</b> — field notes / measurement</p>
   <h2>When the numbers lie</h2>
+  <p class="lead">These come from our own operations and research rather than anonymised client work. We made most of them with our own money, which is a different kind of qualification — and it is the list an audit is looking for in your stack.</p>
 
   <div class="finding">
     <div class="meta"><span class="tagx">ATTRIBUTION</span><span>severity: channel-killing</span></div>
@@ -68,7 +138,7 @@
 </div></section>
 
 <section><div class="wrap">
-  <p class="slabel"><b>02</b> — research</p>
+  <p class="slabel"><b>03</b> — field notes / research</p>
   <h2>When the data lies</h2>
 
   <div class="finding">
@@ -110,7 +180,7 @@
 </div></section>
 
 <section><div class="wrap">
-  <p class="slabel"><b>03</b> — method</p>
+  <p class="slabel"><b>04</b> — method</p>
   <h2>What this costs to find</h2>
   <div class="term">
     <div class="term-head"><i></i><i></i><i></i><span>recent screen — five market segments</span></div>
@@ -130,7 +200,7 @@
 </div></section>
 
 <section class="formzone"><div class="wrap">
-  <p class="slabel"><b>04</b> — next</p>
+  <p class="slabel"><b>05</b> — next</p>
   <h2>Want this list run against your stack?</h2>
   <p class="lead">Ten working days, fixed fee, read-only access. You get the findings ranked by money at stake and a fix list your own team can execute.</p>
   <div class="cta-row" style="margin-top:1.4rem">
