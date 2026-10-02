@@ -35,40 +35,104 @@
 </div></nav>
 
 <div class="hero"><div class="wrap">
-  <p class="tag">Internal tooling</p>
+  <p class="tag">Tooling &amp; stack</p>
   <h1>We build it for <em>ourselves</em> first.</h1>
-  <p class="sub">None of this is a product. It is the tooling we built to run our own paid acquisition and data work — and it is the reason an audit takes ten days instead of ten weeks. If you want any of it deployed in your stack, that is a build engagement.</p>
+  <p class="sub">Frameworks, agents and platforms built across travel, hospitality and education — most of it battle-tested in our own products before it ever reached a client. It is the reason an audit takes ten days instead of ten weeks. If you want any of it deployed in your stack, that is a build engagement.</p>
 </div></div>
 
 <section><div class="wrap">
-  <p class="slabel"><b>01</b> — data</p>
-  <h2>Research and inventory</h2>
+  <p class="slabel"><b>01</b> — AI systems</p>
+  <h2>Guardrails and agents</h2>
 
   <div class="tool">
-    <div class="hdr"><h3>Keyword corpus</h3><span class="stack">SQLite · DataForSEO · Semrush</span></div>
-    <p>A measured keyword database built to stop us trusting vendor headline numbers. Every row carries the metric we actually bid on, not the one the tool reports first.</p>
+    <div class="hdr"><h3>AI guardrails for the SDLC</h3><span class="stack">evaluation gates · failure-mode handling · architecture</span></div>
+    <p>The structure that lets a team ship AI-assisted work quickly without shipping something wrong. Speed and safety usually get traded against each other because the architecture forces the trade — it does not have to.</p>
     <div class="facts">
-      <div><b>144,000</b> keywords across <b>27</b> markets</div>
-      <div>entry bid and achieved CPC held as separate fields — conflating them is how models end up wrong by multiples</div>
-      <div>brand-term detection, junk-intent patterns and market exclusions enforced in the query layer, not as constants nobody reads</div>
-      <div>per-vendor billing model so a research pass has a known cost before it runs</div>
+      <div>evaluation gates in the delivery path, not bolted on after release</div>
+      <div>explicit failure-mode handling: what the system does when the model is wrong, not only when it is right</div>
+      <div>review and approval boundaries drawn where a human decision actually changes the outcome</div>
+      <div>built for <b>time to market</b> — the point is to remove the review bottleneck, not add one</div>
     </div>
   </div>
 
   <div class="tool">
-    <div class="hdr"><h3>Cross-supplier inventory pipeline</h3><span class="stack">GCP · Cloud SQL · Cloud Run · FastAPI</span></div>
-    <p>Normalises product inventory from three travel suppliers into one canonical entity model, so the same thing sold by different vendors resolves to one row.</p>
+    <div class="hdr"><h3>AI audit, launch and market-research agents</h3><span class="stack">LLM pipelines · costed extraction · agent orchestration</span></div>
+    <p>A working set of agents for auditing an AI system, launching one, and running market research against live data. Battle-tested in our own startups before any of it was offered externally.</p>
     <div class="facts">
-      <div>nightly Cloud Run parser into Cloud SQL, IAM-private API surface</div>
-      <div>canonical place resolution with attraction-overlap grouping (same / similar)</div>
-      <div>Basic-Auth data explorer for browsing offers, entities and geography</div>
-      <div>the pipeline's most valuable output was a <b>negative</b>: of 1,178 entities, only <b>45</b> were genuinely multi-supplier — which killed the premise it was built on</div>
+      <div>extraction cost modelled <b>per document</b> before a batch runs, so a corpus-wide pass has a price before it starts</div>
+      <div>research agents that pull measured demand and SERP composition rather than vendor headline numbers</div>
+      <div>audit agents that check an AI system against its own stated failure modes</div>
+      <div>every one of them run against our own products first — the bugs were found with our money</div>
     </div>
   </div>
 </div></section>
 
 <section><div class="wrap">
-  <p class="slabel"><b>02</b> — ad operations</p>
+  <p class="slabel"><b>02</b> — booking platforms</p>
+  <h2>Multi-supplier inventory</h2>
+
+  <div class="tool">
+    <div class="hdr"><h3>Cruise booking engine</h3><span class="stack">multi-supplier · availability · payments</span></div>
+    <p>A booking platform aggregating cruise inventory across multiple suppliers into one search, one basket and one confirmation path. It won an industry award for the best booking system in its market.</p>
+    <div class="facts">
+      <div>multi-supplier search, availability and pricing behind a single funnel</div>
+      <div>supplier failure isolated so one slow or down connection does not take the search with it</div>
+      <div>the hard part is never the UI — it is reconciling inventory that disagrees</div>
+      <div><b>award-winning</b> in its category</div>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="hdr"><h3>Ingestion and deduplication framework</h3><span class="stack">GCP · Cloud SQL · Cloud Run · FastAPI</span></div>
+    <p>Reusable pipeline for hotel, cruise and tour/event inventory: ingest from many suppliers, normalise to a canonical entity model, and resolve the same product sold by different vendors into one row. Applied across all three industries.</p>
+    <div class="facts">
+      <div>nightly parser into Cloud SQL, IAM-private API surface</div>
+      <div>canonical place resolution with attraction-overlap grouping (same / similar)</div>
+      <div>deduplication is the whole problem: in one corpus of <b>1,178</b> entities only <b>45</b> were genuinely multi-supplier — a finding that killed the premise the pipeline was built on, which is exactly what you want a pipeline to tell you</div>
+      <div>test-gated: <b>35/35</b> green as a release condition on the search layer, 789 offers across 6 countries</div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>03</b> — measurement</p>
+  <h2>Attribution, dashboards, integrations</h2>
+
+  <div class="tool">
+    <div class="hdr"><h3>Click-to-outcome attribution harness</h3><span class="stack">GTM · server-side · BigQuery · offline conversions</span></div>
+    <p>The stack we use to prove a click became revenue rather than assuming it. Built after our own analytics disagreed with a partner's by an order of magnitude.</p>
+    <div class="facts">
+      <div>gclid captured at landing and carried to the order record, so an offline outcome uploads back weeks later</div>
+      <div>conversion fires on a <b>confirmed server response</b>, never on form submit — firing on submit counts leads that never arrived</div>
+      <div>outbound links instrumented as real anchors: a <code>window.open()</code> outbound is popup-blockable, and a blocked one looks identical to a successful one</div>
+      <div>own-traffic exclusion enforced in the query layer, not left to the reader to remember</div>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="hdr"><h3>Dashboards and metric layers</h3><span class="stack">BigQuery · Looker Studio · Mixpanel</span></div>
+    <p>Spend joined to orders joined to margin, refreshed nightly, with the funnel defined once in the warehouse rather than three times in three tools.</p>
+    <div class="facts">
+      <div>one metric definition in the warehouse, consumed by every surface</div>
+      <div>funnel stages instrumented end to end: impression, click, landing, lead, order, margin</div>
+      <div>built to be handed over — documented, not a consultant-shaped dependency</div>
+    </div>
+  </div>
+
+  <div class="tool">
+    <div class="hdr"><h3>Marketing and reporting API integrations</h3><span class="stack">Google Ads · GA4 · Mixpanel · DataForSEO · Semrush · supplier APIs</span></div>
+    <p>Connectors across ad platforms, analytics, keyword and SERP vendors, email, and travel supplier APIs — with the per-vendor billing model attached, so a data pull has a known cost before it runs.</p>
+    <div class="facts">
+      <div>ad platform, analytics and attribution APIs on the spend side</div>
+      <div>keyword, SERP and competitive-intelligence vendors on the research side</div>
+      <div>travel supplier and affiliate APIs on the inventory side</div>
+      <div>rate limits, pagination and partial-failure handling treated as requirements rather than surprises</div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>04</b> — ad operations</p>
   <h2>Campaign automation</h2>
 
   <div class="tool">
@@ -78,50 +142,39 @@
       <div>campaigns created <b>PAUSED by default</b> — nothing can spend without a human enabling it</div>
       <div><b>validate_only</b> dry-run path, and a hard daily-budget ceiling</div>
       <div>whole campaign built in a single <code>MutateGoogleAdsRequest</code> with temporary resource names, so a partial failure rolls back instead of leaving orphans</div>
-      <div>micros computed as exact multiples of the billable unit — float arithmetic here silently produces unbillable bids</div>
+      <div>ad text pre-flighted against length limits before any mutate — a violation mid-run leaves a campaign and ad group with no ad in them</div>
     </div>
   </div>
 
   <div class="tool">
-    <div class="hdr"><h3>Campaign launcher with preflight</h3><span class="stack">Python · Google Ads API</span></div>
-    <p>Declarative campaign definitions that fail before they touch the API rather than halfway through it.</p>
+    <div class="hdr"><h3>Keyword and demand corpus</h3><span class="stack">SQLite · DataForSEO · Semrush</span></div>
+    <p>A measured keyword database built to stop us trusting vendor headline numbers.</p>
     <div class="facts">
-      <div>ad text checked against headline and description limits <b>before any mutate</b> — a length violation mid-run leaves a campaign and ad group created with no ad in them</div>
-      <div>negative-keyword lists attached per campaign, because new campaigns do <b>not</b> inherit shared lists</div>
-      <div>ad rotation set on the ad group, never the campaign — the v24 API accepts the latter and ignores it</div>
-      <div>per-keyword max CPC, presence-only geo targeting, search network only</div>
+      <div><b>144,000</b> keywords across <b>27</b> markets</div>
+      <div>entry bid and achieved CPC held as separate fields — conflating them is how models end up wrong by multiples</div>
+      <div>brand-term detection and junk-intent patterns enforced in the query layer, not as constants nobody reads</div>
     </div>
   </div>
 </div></section>
 
 <section><div class="wrap">
-  <p class="slabel"><b>03</b> — measurement</p>
-  <h2>Attribution harness</h2>
+  <p class="slabel"><b>05</b> — infrastructure</p>
+  <h2>Cloud playbooks and templates</h2>
 
   <div class="tool">
-    <div class="hdr"><h3>Click-to-outcome instrumentation</h3><span class="stack">GTM · Mixpanel · BigQuery · offline conversions</span></div>
-    <p>The stack we use to prove a click became revenue, rather than assuming it. Built after our own analytics disagreed with a partner's by an order of magnitude.</p>
+    <div class="hdr"><h3>GCP and AWS architecture templates</h3><span class="stack">Cloud Run · Cloud SQL · BigQuery · IAM</span></div>
+    <p>Reference architectures and runbooks for the shapes we build most: a nightly batch pipeline, an IAM-private internal API, a warehouse with scheduled transforms, a server-side tagging container.</p>
     <div class="facts">
-      <div>gclid captured at landing and carried to the subscriber or order record, so an offline outcome can be uploaded back weeks later</div>
-      <div>conversion fires on a <b>confirmed server response</b>, never on form submit — firing on submit counts leads that never arrived</div>
-      <div>outbound links instrumented as real anchors: a <code>window.open()</code> outbound is popup-blockable and a blocked one looks identical to a successful one in analytics</div>
-      <div>own-traffic exclusion enforced in every query, not left to the reader to remember</div>
-    </div>
-  </div>
-
-  <div class="tool">
-    <div class="hdr"><h3>Search meta-aggregator</h3><span class="stack">Python · FastAPI · LLM extraction</span></div>
-    <p>A test-gated pipeline joining multi-supplier offers to cross-site review data, with LLM extraction costed per document before any batch runs.</p>
-    <div class="facts">
-      <div>789 offers across 6 countries, pipeline through BFF to UI</div>
-      <div><b>35/35</b> tests green as a release gate</div>
-      <div>extraction cost modelled per document up front, so a corpus-wide run has a price before it starts</div>
+      <div>least-privilege IAM as the default, not a hardening pass afterwards</div>
+      <div>cost modelled before deployment — cloud bills are a design output, not a monthly surprise</div>
+      <div>private-by-default internal surfaces; nothing public that does not need to be</div>
+      <div>written so a client team can run it after we leave</div>
     </div>
   </div>
 </div></section>
 
 <section class="formzone"><div class="wrap">
-  <p class="slabel"><b>04</b> — next</p>
+  <p class="slabel"><b>06</b> — next</p>
   <h2>Want any of this in your stack?</h2>
   <p class="lead">The pipeline and attribution work is a build engagement. The measurement review is the audit. Start with a scoping call and we will tell you which one you actually need.</p>
   <div class="cta-row" style="margin-top:1.4rem">
