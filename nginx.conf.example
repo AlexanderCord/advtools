@@ -1,0 +1,56 @@
+# nginx config for new.advtools.net
+#
+# The repo also ships netlify.toml / _headers / _redirects. Those are read by
+# Netlify and Cloudflare Pages ONLY — nginx ignores them completely, which is
+# why the pretty URLs 404 and no security headers are present on the live site.
+# This file is the nginx equivalent.
+
+server {
+    listen 443 ssl http2;
+    server_name new.advtools.net;
+
+    root /var/www/new.advtools.net;
+    index index.html;
+
+    # ── compression ───────────────────────────────────────────────────────
+    # HTML is already gzipped on the live site; css and js are NOT.
+    # 12.9KB of CSS is served raw where ~3KB would do.
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 256;
+    gzip_proxied any;
+    gzip_types text/plain text/css text/xml application/javascript
+               application/json application/xml image/svg+xml;
+
+    # ── security headers ──────────────────────────────────────────────────
+    add_header X-Content-Type-Options  "nosniff" always;
+    add_header X-Frame-Options         "SAMEORIGIN" always;
+    add_header Referrer-Policy         "strict-origin-when-cross-origin" always;
+    add_header Permissions-Policy      "geolocation=(), microphone=(), camera=()" always;
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+
+    # ── caching ───────────────────────────────────────────────────────────
+    # Assets are unversioned, so keep the window short enough to ship a fix.
+    location /assets/ {
+        add_header Cache-Control "public, max-age=604800";
+        add_header X-Content-Type-Options "nosniff" always;
+    }
+    location = /sitemap.xml { add_header Cache-Control "public, max-age=3600"; }
+    location = /robots.txt  { add_header Cache-Control "public, max-age=3600"; }
+
+    # ── pretty URLs ───────────────────────────────────────────────────────
+    # Internal rewrites, not redirects: no 302 in the ad click path.
+    location = /tools    { try_files /tools.html =404; }
+    location = /cases    { try_files /cases.html =404; }
+    location = /findings { try_files /cases.html =404; }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+
+server {
+    listen 80;
+    server_name new.advtools.net;
+    return 301 https://$host$request_uri;
+}
