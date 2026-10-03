@@ -1,175 +1,270 @@
-# ADVTOOLS — campaign structure
+# ADVTOOLS — campaign plan (security services)
 
-Rebuilt 2026-10-03 around the security and compliance cluster. Supersedes the
-attribution/data-engineering plan, which targeted keywords no offer matches.
-
-Full measurement in `research/RESEARCH-2026-10-03.md`.
-
-## Why this cluster
-
-| Offer area | Service-intent vol/mo | Best top-of-page bid |
-|---|---:|---:|
-| **Security & compliance** | **~242,000** | **$766** |
-| Data engineering | 1,240 | $149 |
-| Process automation | 1,250 | $34 |
-| Google Ads audit | ~250 | $69 |
-| Software architecture | ~280 | $6 |
-
-Under the inverted-CPC rule — in B2B consulting a cheap click means a market with
-no money in it — the $250–766 bids here are the strongest budget signal measured
-anywhere in this research.
+Re-cut 2026-10-03 after the broad cybersecurity keyword round. Supersedes the
+earlier compliance-led plan. Every number below is measured, not estimated;
+sources in `research/`.
 
 ---
 
-## ⚠️ Read this before setting a budget
+## 0. The constraint, stated once
 
-**Service terms in this market cost $25–43 to enter.** That is three to five times
-the attribution cluster this plan replaces.
+Entry (low top-of-page) bids in this market, US:
 
-| Budget | Clicks on service terms | Verdict |
-|---:|---:|---|
-| $600 | ~20 | not readable, do not bother |
-| $1,500 | ~50 | minimum for a CTR read |
-| $3,000 | ~100 | first point a lead rate means anything |
+| Term | Vol/mo | Entry | Top of page | YoY |
+|---|---:|---:|---:|---:|
+| `penetration testing services` | 3,600 | $25.37 | $250.00 | +52% |
+| `cyber security audit service` | 880 | $24.91 | $538.34 | −64% |
+| `penetration testing company` | 260 | $35.78 | $350.00 | −34% |
+| `vciso services` | 170 | $18.49 | $80.00 | −57% |
 
-The cheap entry is the head terms — `soc 2` at $8.22, `penetration testing` at
-$8.56 — but those carry mixed intent and will pull students, job seekers and tool
-shoppers. They are in campaign 3 precisely so that traffic is isolated and killable.
+At a $25 entry CPC, **$1,000/month buys about 40 clicks**. Ten conversions —
+the minimum to read a conversion rate — needs roughly 300 clicks, or ~$7,500.
 
----
+**Therefore: month one cannot measure a conversion rate, and no plan that
+claims otherwise is honest.** What month one *can* measure is whether the
+auction exists at our bid, what a click really costs against the $25 estimate,
+and whether a human being ever fills the form. Those are yes/no questions and
+they are answerable for a few hundred dollars.
 
-## Campaign 1 · `ADV-Pentest-US` → `/pentest.html`
-
-Geo US, presence-only. Search network only. Manual CPC. **$14/day.**
-
-| Keyword | Match | Max CPC | Vol/mo | Measured high ToP |
-|---|---|---:|---:|---:|
-| penetration testing services | EXACT | $32.00 | 3,600 | $250.00 |
-| penetration testing services | PHRASE | $30.00 | — | — |
-| penetration testing companies | EXACT | $34.00 | 590 | $289.22 |
-| penetration testing firm | EXACT | $34.00 | 590 | $289.22 |
-| penetration testing company | PHRASE | $30.00 | — | — |
-| web application penetration testing | PHRASE | $28.00 | — | — |
-
-## Campaign 2 · `ADV-Compliance-US` → `/soc2.html`
-
-Geo US, presence-only. **$14/day.**
-
-| Keyword | Match | Max CPC | Vol/mo | Measured high ToP |
-|---|---|---:|---:|---:|
-| soc 2 compliance consultant | EXACT | $34.00 | 480 | $274.27 |
-| soc 2 readiness | PHRASE | $28.00 | — | — |
-| soc 2 compliance | PHRASE | $22.00 | 12,100 | $98.44 |
-| soc 2 type 2 audit | EXACT | $30.00 | 480 | $216.70 |
-| iso 27001 consultant | EXACT | $30.00 | 170 | $272.47 |
-| iso 27001 certification | PHRASE | $18.00 | — | — |
-
-## Campaign 3 · `ADV-SecAudit-US` → `/index.html`
-
-Geo US, presence-only. **$8/day.** Head terms: cheap, mixed intent, and the one
-place search-term discovery actually happens.
-
-| Keyword | Match | Max CPC | Vol/mo | Measured high ToP |
-|---|---|---:|---:|---:|
-| security audit | PHRASE | $14.00 | 880 | $67.92 |
-| cyber security audit | PHRASE | $12.00 | 880 | $41.54 |
-| security audit service | EXACT | $20.00 | 480 | $75.00 |
-| secure code review | EXACT | $18.00 | 140 | $38.82 |
-| soc 2 | PHRASE | $12.00 | 22,200 | $59.83 |
-| penetration testing | PHRASE | $12.00 | 18,100 | $85.15 |
-
-**Total $36/day → ~$250/week → ~$1,500 over six weeks**, or three weeks at double.
+The ladder below is built around that, one rung at a time.
 
 ---
 
-## Negatives — campaign level, and heavier than usual
+## 1. Start offshore, not in the US
 
-New campaigns do **not** inherit shared lists. Security has the worst
-junk-to-buyer ratio of any cluster measured: the category is saturated with
-students, job seekers and practitioners looking for free tooling.
+The US has the volume. It does not have the best entry price, and at this
+budget entry price is the binding constraint.
 
-**Base:** job · jobs · salary · career · hiring · resume · intern · internship ·
-certification · certificate · certified · course · courses · training · bootcamp ·
-exam · degree · class · classes · school · tutorial · learn · roadmap · what is ·
-how to · meaning · definition · example · template · checklist · free · pdf ·
-reddit · youtube · udemy · coursera
+`penetration testing services`, by market:
 
-**Practitioner / DIY** — people who will do it themselves:
-kali · metasploit · burp · burpsuite · nmap · wireshark · owasp zap · github ·
-open source · lab · labs · practice · ctf · hack the box · tryhackme · oscp ·
-ceh · comptia · security+
+| Market | Vol/mo | Entry | Top of page | YoY |
+|---|---:|---:|---:|---:|
+| United States | 3,600 | $25.37 | $250.00 | +52% |
+| United Kingdom | 1,000 | $42.71 | $149.37 | −46% |
+| **Canada** | 390 | **$22.05** | $150.00 | **+84%** |
+| **Australia** | 260 | **$15.69** | **$321.26** | **+433%** |
+| **Singapore** | 140 | **$8.60** | $75.14 | **+271%** |
+| United Arab Emirates | 50 | — | — | +100% |
+| Maldives | *not a reportable location* | — | — | — |
 
-**Product shoppers** — they want software, not a consultancy:
-tool · tools · software · platform · solution · vendor · pricing · cost · price ·
-vs · versus · alternative · comparison · review · reviews · best · top 10
+Two things fall out of this table.
 
-**Compliance-automation brands** (start excluded; revisit only if you become an
-implementation partner): vanta · drata · secureframe · sprinto · tugboat
+**Australia is the anomaly worth exploiting.** Entry costs $15.69 — 38% less
+than the US — while the top-of-page bid is $321, the highest of any market
+measured. Somebody there is paying a great deal for these clicks and the floor
+is still cheap. Volume is up 433% year on year, and `cybersecurity services` in
+Australia is up 515%. That is the signature of a market under new compulsion,
+and it is the cheapest place on the list to find out whether the funnel works.
 
-**Adjacent regimes we do not sell:** cmmc · fedramp · hitrust · nist 800-171 ·
-hipaa · pci dss · gdpr
+**Singapore is the cheapest click in English anywhere** at $8.60, up 271%.
+Volume is thin, but at $8.60 a test is three times cheaper to run than in the US.
 
----
-
-## Ad copy
-
-Headlines ≤30 chars, descriptions ≤90. **Pre-flight before any mutate** — a length
-violation fails mid-run and leaves a campaign and ad group with no ad in them.
-
-### Pentest
-
-`Penetration Testing, 2-3 Wk` · `Manual, Not A Scanner Run` · `Retest Included` ·
-`From $15,000 Fixed Scope` · `Web App, API, Infra Testing` · `Ranked By Exploit Risk` ·
-`Built Systems At This Scale` · `Scope Agreed In Writing` · `Reproducible Findings` ·
-`20 Years Building And Testing`
-
-- `Manual testing of the apps and infrastructure you run. Not a scanner report.`
-- `Findings ranked by exploitability and business impact, with reproduction steps.`
-- `Retest after remediation is included, not an upsell. Fixed scope, quoted up front.`
-- `Scope, timing and escalation agreed in writing before anything starts.`
-
-### Compliance
-
-`SOC 2 Readiness, Not Theatre` · `ISO 27001 Readiness` · `Controls That Operate` ·
-`Evidence Wired Into Work` · `We Liaise With The Auditor` · `From $35,000` ·
-`Type 1 First If A Deal Waits` · `Gap Assessment In 2 Weeks` · `A CPA Firm Signs It` ·
-`Honest About What You Need`
-
-- `Gap assessment, controls built and operating, evidence collected, auditor liaison.`
-- `We do readiness. A licensed CPA firm does the attestation. That part is not ours.`
-- `If a platform and a month of your own time is cheaper, we will say so on the call.`
-- `Controls that operate, not policies nobody follows. Auditors test the former.`
-
-### Security audit
-
-`Security & SSDLC Audit` · `Fixed Fee, Two Weeks` · `Where Security Meets Delivery` ·
-`Findings Ranked By Exposure` · `$10,000 Fixed Scope` · `Read Only Access` ·
-`Remediation You Can Run` · `No Retainer Attached`
-
-- `Secure development lifecycle and infrastructure posture, scoped to a deadline.`
-- `Findings ranked by exposure, not by count. Remediation your own team can execute.`
-- `Read only access. Fixed fee agreed before we start. Report plus walkthrough.`
+So: prove the funnel where clicks are cheap, then buy the expensive auction
+with evidence instead of hope.
 
 ---
 
-## Before enabling — in order
+## 2. The ladder — one rung at a time
 
-1. **Deploy.** `/pentest.html` and `/soc2.html` must be live. Dead final URLs get
-   campaigns disapproved.
-2. **Fix the nginx config.** `/tools`, `/cases` currently 404 and there are no
-   security headers — see `nginx.conf.example`. Ad final URLs must use `.html`.
-3. **Set `KIT_FORM_ID`** in `assets/app.js` and create the custom fields in Kit.
-   The form currently cannot capture a single lead.
-4. **Add the Google Ads tag** and set `ADS_CONVERSION`.
-5. **Submit the form yourself.** Confirm the subscriber appears in Kit *with custom
-   fields populated* **and** the conversion registers. These fail independently.
-6. Enable. **Read search terms on day 2**, not day 7 — in this cluster the junk
-   arrives immediately and at $30 a click it is expensive.
-7. Use `TODAY`, not `LAST_7_DAYS`, for same-day delivery checks.
+Each rung has one question, one budget, and a gate. Do not start the next rung
+until the current one answers its question. Do not run two rungs at once.
 
-## What this buys
+### Rung 1 — does the auction exist?
+- **Market:** Australia
+- **Budget:** $15/day × 21 days = **$315**
+- **Campaign:** `ADV-Pentest-AU` · Search only · Manual CPC, $18 cap
+- **Match:** exact only
+- **Keywords:** `[penetration testing services]` `[penetration testing company]`
+  `[pen testing services]` `[penetration test provider]`
+- **Landing:** `pentest.html`
+- **Question:** do impressions exist at our bid, and what is the real CPC?
+- **Gate:** ≥20 clicks at ≤$20 average CPC → rung 2.
+  CPC >$35 → the US will be strictly worse; stop and rethink the offer, not the bid.
+  <10 clicks in 21 days → the exact-match pool is too thin; add phrase match before spending more.
 
-At ~$1,500 and roughly 50 clicks: a readable comparison of **which of the three
-offers gets clicked**, and whether the search terms are buyers or noise. It is not
-enough to measure a conversion rate, and the plan is built around that limit rather
-than pretending otherwise.
+### Rung 2 — does anyone convert at all?
+- **Markets:** Australia + Canada + Singapore
+- **Budget:** $22/day × 21 days = **$462**
+- **Campaigns:** `ADV-Pentest-AU` (continue) + `ADV-Pentest-CA` + `ADV-Pentest-SG`
+  — separate campaigns, because budget cannot be steered within one.
+- **Match:** exact + phrase
+- **Question:** does a single human being complete the form?
+- **Gate:** ≥1 form submit within ~60 cumulative clicks → rung 3.
+  **0 in 60 clicks → stop buying traffic.** The problem is the page or the
+  offer, and more clicks will only buy a more expensive version of the same no.
+
+### Rung 3 — is the US survivable?
+- **Market:** add United States
+- **Budget:** $30/day × 28 days = **$840**
+- **Campaign:** `ADV-Pentest-US` · exact + phrase · Manual CPC, $30 cap
+- **Question:** does US CPC land near the $25.37 entry or near the $250 ceiling?
+- **Gate:** CPC ≤$45 and ≥1 lead → scale this campaign and hold the others flat.
+  CPC >$45 with no lead → stay offshore; the US auction is being bought by
+  firms with a sales team and a budget we are not competing with this year.
+
+### Rung 4 — second service
+Only after a rung-3 result. Repeat rungs 1–3 for `security-audit.html`
+(`[cyber security audit services]`, `[security audit service]`, $24.91 entry,
+$538 top of page). Same ladder, same gates.
+
+**vCISO is not a paid-search play.** Commercial volume is ~260/mo in the US and
+30/mo in the UAE, and the `vciso` head term is informational. Keyword difficulty
+is 4 — meaning the organic result is nearly unguarded. Build `vciso.html` for
+organic and let it earn its traffic; do not bid on it.
+
+**Total ladder cost if every rung passes: ~$1,617 over about 10 weeks.**
+
+---
+
+## 3. Negative keywords (shared list, attach to every campaign)
+
+New campaigns do not inherit shared negative lists — attach explicitly.
+
+```
+salary  salaries  jobs  job  career  careers  hiring  intern  internship
+course  courses  certification  certified  cert  training  bootcamp  degree
+exam  tutorial  "what is"  meaning  definition  pdf  template  checklist
+free  cheap  example  sample  resume  interview  reddit  quizlet  wikipedia
+tools  tool  software  open source  github  kali  metasploit  burp
+army  military  nfl  football  "red team go"  "atomic red team"
+```
+
+The last two lines matter more than they look. `red team` is 12,100/mo of
+mostly military, sports and tooling intent at a $5.28 bid — a textbook cheap-click
+trap. `penetration testing` as a head term is 18,100/mo and overwhelmingly
+informational: students and practitioners, not buyers. **Never bid the head
+terms broad.**
+
+---
+
+## 4. Targeting — who, and where they actually are
+
+### The Maldives question, answered
+
+Geo targeting in Google Ads keys on where the searcher's device is, not on who
+they are. An executive on holiday in the Maldives is not searching for a
+penetration testing vendor; they are on holiday. The Maldives is not even a
+reportable location in the keyword data — volume for these terms is effectively
+nil. The same holds for Monaco, Aspen and every other place the instinct points at.
+
+**The instinct is right and the mechanism is wrong.** "Reach executives" is an
+audience problem, not a geography problem. Geography should target where the
+*companies* are. Audience targeting is what reaches the people.
+
+### The mechanism that actually does this
+
+**Microsoft Advertising LinkedIn Profile Targeting** is the only search product
+that targets by company, industry and job function. It is a direct fit for this
+offer, and it is a tool this account already has the expertise to run. Microsoft
+also tends to clear cheaper than Google, and a corporate-Windows B2B audience
+over-indexes on Bing for exactly the reason you would expect — it is the default
+in the browser their IT department configured.
+
+Recommended Microsoft layer, once rung 2 passes:
+- **Job function:** Information Technology, Engineering, Operations
+- **Industry:** Computer Software, Internet, Financial Services, Hospital & Health Care
+- **Company size:** 50–1,000 employees — above this they have a CISO; below it they have no budget
+- Bid modifier only at first (observation), not exclusive targeting — the list is small
+
+**Google equivalents**, in order of usefulness here:
+1. **Customer Match** — upload contacts at named target accounts. Works at any list size for Search observation.
+2. **In-market: Business Services → Security Services** — layer as observation, read the bid modifier after 500+ impressions.
+3. **Detailed demographics** — no job-title targeting on Search. Do not plan around it.
+
+### Geography, done properly
+
+Target the metros where the *buyer's company* is headquartered, not where
+anyone holidays:
+
+- **Australia:** Sydney, Melbourne — then national
+- **Canada:** Toronto, Vancouver, Montreal
+- **Singapore:** whole country
+- **United States (rung 3):** SF Bay Area, NYC, Boston, Austin, Seattle, Denver
+- **United Kingdom:** London only — the UK entry bid is $42.71, the highest measured, so do not buy the whole country
+
+Set location option to **"Presence: people in or regularly in your targeted
+locations"** — not "presence or interest". The default setting will otherwise
+serve ads to people merely reading about Sydney.
+
+### A note on the UAE
+
+UAE was on the market list, so it was measured: `cybersecurity services` is
+90/mo at a **$2.02** entry bid and −60% year on year; `cyber security audit` is
+20/mo and −91%. A $2 entry bid in a B2B services auction means no advertiser is
+making money there. **Do not spend on the UAE** — on the data, not on policy.
+(Separately: the portfolio's standing owner decision excludes Gulf targeting.
+The data and the rule agree here, so nothing is lost.)
+
+---
+
+## 5. Retargeting
+
+### Tag on day zero, launch much later
+
+Remarketing has audience-size floors, and at this budget they are the whole story:
+
+| Network | Minimum list size | Reachable at ~40 clicks/mo? |
+|---|---:|---|
+| Display remarketing | 100 | yes, ~2–3 months |
+| Search (RLSA) | 1,000 | **no — not this year** |
+| YouTube | 1,000 | no |
+
+So: **install the tag before rung 1 even starts**, because the list accrues
+while you are still unable to use it. A tag installed at rung 3 throws away
+everything the first two rungs saw.
+
+### Audiences to define now
+
+| Audience | Rule | Duration | Use |
+|---|---|---:|---|
+| **All visitors** | any page | 540d | the seed list; display remarketing when ≥100 |
+| **Service intent** | visited `pentest.html` / `security-audit.html` / `vciso.html` | 540d | the one worth paying for |
+| **Deep read** | service page + ≥60s or ≥50% scroll | 180d | highest intent, smallest list |
+| **Converters** | visited `thanks.html` | 540d | **exclude from every campaign** |
+
+The converter exclusion is why `thanks.html` exists as a separate URL with the
+form redirecting to it. Without a distinct converter URL there is no way to stop
+paying to re-advertise to someone who already wrote to you.
+
+### Campaign: `ADV-RMK-Display`
+- **Launch condition:** All visitors ≥ 100 — not before
+- **Budget:** $5/day, capped
+- **Audience:** Service intent, minus Converters
+- **Frequency cap:** 3/day, 10/week — a consultancy that follows people around the
+  internet reads as desperate, which is the opposite of the positioning
+- **Placement exclusions:** apps, games, parked domains
+- **Creative:** the finding block from `security-audit.html` — the thing that
+  differentiates the offer, not a logo
+- **Gate:** if CPM-driven spend produces no return visits in 6 weeks, kill it.
+  Display at $5/day is a brand-presence expense, not a lead channel, and should
+  be honest about that.
+
+### RLSA, for later
+Configure the Search campaigns with the audiences attached in **observation**
+mode from rung 1. It costs nothing, changes no bids, and means that on the day
+a list crosses 1,000 the historical data is already there.
+
+---
+
+## 6. Measurement — the part that usually gets skipped
+
+Consulting closes offline, weeks after the click. Without this, Smart Bidding
+optimises toward form-fillers who never become customers.
+
+1. **gclid / msclkid capture** into the Kit record — already built in `assets/app.js`.
+2. **Offline conversion upload** when a deal closes, with the real value.
+3. Until that loop runs, keep campaigns on **Manual CPC**. Smart Bidding on a
+   form-fill proxy at 40 clicks/month has nothing to learn from and will spend
+   the budget finding it out.
+
+---
+
+## 7. Blockers before a single dollar is spent
+
+- [ ] `KIT_FORM_ID` is still `REPLACE_ME` in `assets/app.js` — **the form cannot
+      capture a lead.** Nothing below matters until this is set.
+- [ ] Kit trial lapsed 2026-07-29 — account needs reactivating.
+- [ ] Google Ads global tag not present on any page (placeholder comment only).
+- [ ] Conversion action not created; `ADS_CONVERSION.send_to` still `REPLACE_ME`.
+- [ ] `nginx.conf.example` not applied on the live host — pretty URLs 404,
+      security headers absent, CSS/JS served uncompressed.

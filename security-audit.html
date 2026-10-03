@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cyber Security Audit — ADVTOOLS</title>
+<meta name="description" content="An independent cyber security audit of the system you actually run: architecture, cloud configuration, code and the development process around it. Findings priced by what they put at risk. $10,000, two weeks.">
+<link rel="canonical" href="https://new.advtools.net/security-audit.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ADVTOOLS">
+<meta property="og:url" content="https://new.advtools.net/security-audit.html">
+<meta property="og:title" content="Cyber Security Audit — ADVTOOLS">
+<meta property="og:description" content="An independent cyber security audit of the system you actually run: architecture, cloud configuration, code and the development process around it. $10,000, two weeks.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cyber Security Audit — ADVTOOLS">
+<meta name="twitter:description" content="An independent cyber security audit of the system you actually run. $10,000, two weeks.">
+<meta name="theme-color" content="#08090B">
+<link rel="stylesheet" href="assets/styles.css">
+<!-- Google Ads global tag goes here before launch. Conversion fires from app.js. -->
+</head>
+<body>
+
+<div class="statusbar"><div class="wrap">
+  <span><span class="dot"></span>Taking work — Q4 2026</span>
+  <span class="hide-sm">Remote · US &amp; EU hours</span>
+</div></div>
+
+<nav class="nav"><div class="wrap">
+  <a class="logo" href="index.html">ADV<b>TOOLS</b></a>
+  <div class="navlinks">
+    <a href="pentest.html">pentest</a>
+    <a href="security-audit.html" aria-current="page">audit</a>
+    <a href="vciso.html">vCISO</a>
+    <a href="cases.html">work</a>
+    <a href="#start">contact</a>
+  </div>
+</div></nav>
+
+<div class="hero"><div class="wrap">
+  <p class="tag">Cyber security audit</p>
+  <h1>An auditor who has <em>shipped</em> the thing being audited.</h1>
+  <p class="sub">Most security audits are written by people who have never run the system in production. Ours are written by the architects, developers and QA who built platforms at this scale — so the findings come with a fix that survives contact with your roadmap, and an estimate of what it actually costs to do.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="#start">Book a scoping call</a>
+    <a class="btn btn-ghost" href="cases.html">See the work</a>
+  </div>
+  <div class="stats">
+    <div class="s"><div class="n">$10k</div><div class="k">fixed fee, quoted before we start</div></div>
+    <div class="s"><div class="n">2 wk</div><div class="k">start to written report</div></div>
+    <div class="s"><div class="n">4</div><div class="k">layers covered, not just the perimeter</div></div>
+    <div class="s"><div class="n">0</div><div class="k">write access to production, ever</div></div>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <p class="slabel"><b>01</b> — scope</p>
+  <h2>Four layers, because attackers do not stop at one</h2>
+  <p class="lead">A scanner covers the first layer. The breaches that end companies usually start in the other three.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="idx">ARCHITECTURE</div>
+      <h3>How the system is put together</h3>
+      <p>Trust boundaries, authentication and session design, tenant isolation, what the blast radius looks like when any one component is taken.</p>
+      <ul>
+        <li>authn / authz model review</li>
+        <li>multi-tenant data separation</li>
+        <li>secrets handling and rotation</li>
+        <li>third-party and supplier surface</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="idx">CLOUD</div>
+      <h3>What is actually deployed</h3>
+      <p>The configuration in the account, not the one in the diagram. IAM over-permission is the single most common finding we write up.</p>
+      <ul>
+        <li>IAM roles and standing privilege</li>
+        <li>network exposure and egress</li>
+        <li>storage, backup and encryption</li>
+        <li>logging that would survive an incident</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="idx">CODE</div>
+      <h3>The parts that handle value</h3>
+      <p>Targeted review of authentication, payment, booking and admin paths rather than an undifferentiated sweep of the repository.</p>
+      <ul>
+        <li>injection and deserialization paths</li>
+        <li>access control at the object level</li>
+        <li>dependency and supply-chain risk</li>
+        <li>cryptography actually in use</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="idx">PROCESS / SSDLC</div>
+      <h3>How a fix reaches production</h3>
+      <p>The layer nobody audits. A perfect codebase with no review gate regresses within a quarter — so we audit the pipeline that keeps it fixed.</p>
+      <ul>
+        <li>branch protection and review gates</li>
+        <li>CI checks, SAST and dependency scanning</li>
+        <li>secrets in history and in build logs</li>
+        <li>who can deploy, and what that requires</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>02</b> — the difference</p>
+  <h2>Findings priced in money, not severity labels</h2>
+  <p class="lead">"Seventeen high, forty-two medium" tells a board nothing and gets a report filed. Every finding we write carries what it puts at risk and what the fix costs, so the decision to fund it can actually be made.</p>
+  <div class="term">
+    <div class="term-head"><i></i><i></i><i></i><span>finding — sample</span></div>
+<div class="term-body"><span class="c">#</span> F-04  <span class="r">object-level access control</span>
+
+  reachable by ....  any logged-in user
+  exposes ........  <span class="y">every tenant's bookings</span>
+  exploit effort ..  <span class="r">low — one changed ID</span>
+
+  at risk ........  <span class="r">GDPR Art.33 notification</span>
+                   <span class="c">+ every enterprise contract</span>
+                   <span class="c">  with a breach clause</span>
+
+  fix ............  <span class="g">~3 dev-days</span>
+  <span class="c">priced so someone can approve it.</span>
+</div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>03</b> — how it runs</p>
+  <h2>Two weeks, read-only, no surprises</h2>
+  <div class="term">
+    <div class="term-head"><i></i><i></i><i></i><span>engagement</span></div>
+<div class="term-body"><span class="g">day 0</span>    scoping call, 30 min, free
+         <span class="c">we say if an audit is wrong for you</span>
+
+<span class="g">day 1</span>    read-only access + architecture
+         <span class="c">never write access to production</span>
+
+<span class="g">day 2-6</span>  cloud, code and config review
+         <span class="c">your engineers interviewed, not</span>
+         <span class="c">only the person who signed</span>
+
+<span class="g">day 7-9</span>  SSDLC and pipeline review
+
+<span class="g">day 10</span>   report + walkthrough
+         <span class="c">with the team who will do the work</span>
+</div>
+  </div>
+
+  <p class="independence">
+    <b>We will quote the fix. The audit fee does not change either way.</b><br>
+    There is no discount for buying the remediation — the one reliable tell that separates an audit from a sales call. Findings are written so your own team or any other firm can execute them, and where a cheaper route exists we name it.
+  </p>
+</div></section>
+
+<section><div class="wrap">
+  <p class="slabel"><b>04</b> — adjacent</p>
+  <h2>If you already know what you need</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="idx">TESTING</div>
+      <h3>Penetration testing</h3>
+      <p>You want someone to actually break in, not to review how it was built. Manual testing of applications, APIs and external infrastructure, with a retest.</p>
+      <div class="foot"><span class="price">from $15,000</span><a class="dur" href="pentest.html">pentest →</a></div>
+    </div>
+    <div class="card">
+      <div class="idx">LEADERSHIP</div>
+      <h3>vCISO</h3>
+      <p>You need the function, not a document — someone accountable for the security programme month to month, without hiring a $300k executive.</p>
+      <div class="foot"><span class="price">monthly</span><a class="dur" href="vciso.html">vCISO →</a></div>
+    </div>
+    <div class="card">
+      <div class="idx">CERTIFICATION</div>
+      <h3>SOC 2 / ISO readiness</h3>
+      <p>A customer is holding a contract until you produce a report. Readiness work, then a hand-off to the licensed auditor who signs it.</p>
+      <div class="foot"><span class="price">from $35,000</span><a class="dur" href="soc2.html">readiness →</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="formzone" id="start"><div class="wrap">
+  <p class="slabel"><b>05</b> — start</p>
+  <h2>Book a scoping call</h2>
+  <p class="lead">Thirty minutes, free, and we will tell you which engagement fits — including when the answer is none of them. One reply from a person, within a working day.</p>
+
+  <form data-kit novalidate>
+    <div class="field">
+      <label for="name">name</label>
+      <input id="name" name="name" type="text" required autocomplete="name">
+    </div>
+    <div class="field">
+      <label for="email">work email</label>
+      <input id="email" name="email" type="email" required autocomplete="email">
+    </div>
+    <div class="field">
+      <label for="company">company</label>
+      <input id="company" name="company" type="text" required autocomplete="organization">
+    </div>
+    <div class="field">
+      <label for="vertical">what do you run</label>
+      <select id="vertical" name="vertical" required>
+        <option value="">select</option>
+        <option>B2B SaaS</option>
+        <option>OTA or booking platform</option>
+        <option>Ecommerce or marketplace</option>
+        <option>EdTech or online school</option>
+        <option>Fintech or payments</option>
+        <option>Healthcare or health data</option>
+        <option>Something else</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="service">which engagement</label>
+      <select id="service" name="service" required>
+        <option value="">select</option>
+        <option>Cyber security audit</option>
+        <option>Penetration testing</option>
+        <option>vCISO</option>
+        <option>SOC 2 / ISO 27001 readiness</option>
+        <option>Something else / crisis</option>
+        <option>Not sure — help me pick</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="headcount">engineering headcount</label>
+      <select id="headcount" name="headcount" required>
+        <option value="">select</option>
+        <option>Under 10</option>
+        <option>10–50</option>
+        <option>50–200</option>
+        <option>Over 200</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="note">what prompted this</label>
+      <textarea id="note" name="note" required placeholder="A sentence is enough. &quot;A customer asked and we have never had one done&quot; is a complete answer."></textarea>
+      <span class="hint">This is the question that tells us whether we can help.</span>
+    </div>
+    <button class="btn btn-primary" type="submit">Send</button>
+    <p class="formnote">No mailing list, no sequence, no drip. One reply from a person.</p>
+  </form>
+
+  <div class="msg ok"><b>Got it.</b><br>We will read it properly and reply within one working day, from a person rather than an autoresponder. If it is urgent, <button type="button" class="contactbtn" data-contact>show email</button> and put "urgent" in the subject line.<noscript><span class="contact-nojs">use the form on the <a href="index.html#start">services page</a></span></noscript></div>
+  <div class="msg err"></div>
+</div></section>
+
+<footer><div class="wrap row">
+  <span>ADVTOOLS — security, audit and engineering since 2015</span>
+  <button type="button" class="contactbtn" data-contact>show email</button><noscript><span class="contact-nojs">use the form on the <a href="index.html#start">services page</a></span></noscript>
+  <a href="tools.html">tools</a>
+  <a href="cases.html">work</a>
+</div></footer>
+
+<script src="assets/mail.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

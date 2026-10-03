@@ -103,6 +103,11 @@ var KIT_FIELDS = ['company', 'service', 'vertical', 'monthly_spend', 'note',
         }
         form.classList.add('done');
         if (okBox) { okBox.classList.add('show'); okBox.setAttribute('tabindex', '-1'); okBox.focus(); }
+        // Navigate to a dedicated converter URL. This is what makes the Ads
+        // conversion verifiable and lets remarketing build a CONVERTERS
+        // audience by URL, which every campaign then excludes. The inline
+        // message shows first so the submit never feels like a page reload.
+        window.setTimeout(function () { window.location.href = 'thanks.html'; }, 1200);
       })
       .catch(function (err) {
         fail('That did not send. Reveal the contact address in the footer and mail us directly, and we will pick it up from there.');

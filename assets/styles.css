@@ -304,3 +304,6 @@ footer .row{display:grid;gap:.35rem}
   border-radius:0 var(--r) var(--r) 0;line-height:1.65;max-width:64ch;
 }
 .independence b{color:var(--warn);font-weight:600}
+
+.card .foot a.dur{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.card .foot a.dur:hover,.card .foot a.dur:focus-visible{border-bottom-color:var(--accent)}

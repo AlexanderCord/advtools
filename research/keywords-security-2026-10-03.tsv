@@ -1,0 +1,391 @@
+cluster	kw	vol	low	high	comp	kd	yoy	core	intent
+pentest	penetration testing	18100	8.56	85.15	0.41	49	-33	penetration test	informational
+pentest	pentester penetration testing	18100	8.56	85.15	0.41	26	-33		informational
+pentest	software penetration testing	18100	8.56	85.15	0.41	35	-33	software penetration test	informational
+pentest	what is a penetration testing	5400	2.8	32.72	0.1	36	-18	what is penetration testing	informational
+pentest	what is penetration testing	5400	2.8	32.72	0.1	36	-18		informational
+pentest	what is penetration testing in software testing	5400	2.8	32.72	0.1	36	-18	what is penetration testing	informational
+pentest	penetration testing as a service	3600	25.37	250	0.11	7	52		commercial
+pentest	penetration testing services	3600	25.37	250	0.11	20	52		commercial
+pentest	penetration testing service	3600	25.37	250	0.11	15	52	penetration testing services	commercial
+pentest	tools for penetration testing	2400	7.03	60.28	0.37	17	-17	penetration testing tools	informational
+pentest	penetration testing tools	2400	7.03	60.28	0.37	17	-17		informational
+pentest	penetration testing tool	2400	7.03	60.28	0.37	17	-17	penetration testing tools	informational
+pentest	penetration testing salary	1900	5.36	40.56	0.02	4	-45	penetration test salary	informational
+pentest	penetration testing pay	1900	5.36	40.56	0.02	3	-45	penetration tester salary	informational
+pentest	penetration testing salaries	1900	5.36	40.56	0.02	3	-45	penetration test salary	informational
+pentest	jobs in penetration testing	1600	0.12	7.77	0.13		-33	penetration testing job	informational
+pentest	liquid penetration testing	1600	2.17	9.68	0.14	9	46	liquid penetrant testing	informational
+pentest	penetration testing vacancies	1600	0.12	7.77	0.13		-33	penetration testing jobs	navigational
+pentest	penetration testing job	1600	0.12	7.77	0.13		-33		informational
+pentest	jobs penetration testing	1600	0.12	7.77	0.13		-33	penetration testing job	navigational
+pentest	penetration testing jobs	1600	0.12	7.77	0.13		-33	penetration testing job	informational
+pentest	job penetration testing	1600	0.12	7.77	0.13		-33	penetration testing job	informational
+pentest	dye penetration testing	1300	1.4	7	0.57			dye penetrant test	informational
+pentest	certification penetration testing	1000	4.91	229.01	0.31	40	-32	penetration testing certification	navigational
+pentest	certified penetration testing	1000	4.91	229.01	0.31	40	-32	pentest certification	informational
+pentest	certification for penetration testing	1000	4.91	229.01	0.31	40	-32	penetration testing certification	informational
+pentest	penetration testing certs	1000	4.91	229.01	0.31	40	-32		informational
+pentest	penetration testing certifications	1000	4.91	229.01	0.31	18	-32	penetration testing certification	informational
+pentest	penetration testing certification	1000	4.91	229.01	0.31	40	-32		informational
+pentest	certifications for penetration testing	1000	4.91	229.01	0.31	40	-32	penetration testing certification	informational
+pentest	penetration testing of web applications	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing kali linux	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	kali linux for penetration testing	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	penetration testing for web application	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing using kali linux	880	2.46	10.77	0.06	16	7100	using kali linux for penetration testing	informational
+pentest	penetration testing using kali	880	2.46	10.77	0.06	16		kali linux penetration testing	informational
+pentest	kali linux penetration testing	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	using kali linux for penetration testing	880	2.46	10.77	0.06	16			informational
+pentest	penetration testing with kali linux	880	2.46	10.77	0.06	16			informational
+pentest	penetration testing on web application	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing web application	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing for web applications	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	web application penetration testing	880	20.61	181.34	0.28	24	-56		informational
+pentest	penetration testing in kali linux	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	penetration testing on kali linux	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	penetration testing with kali	880	2.46	10.77	0.06	20		kali penetration testing	informational
+pentest	kali penetration testing	880	2.46	10.77	0.06	16			informational
+pentest	penetration testing of network	720	13.15	130.69	0.15	16	-45	network penetration testing	informational
+pentest	dynamic cone penetration testing	720	1.88	11.43	0.07			dynamic cone penetration test	informational
+pentest	penetration testing meaning	720	2.94	22.13	0.16	53			informational
+pentest	standard penetration testing	720	2.75	17.27	0.02		-18	standard penetration test	informational
+pentest	penetration testing on network	720	13.15	130.69	0.15	16	-45	network penetration testing	informational
+pentest	penetration testing network	720	13.15	130.69	0.15	16	-45	network penetration testing	informational
+pentest	network penetration testing	720	13.15	130.69	0.15	16	-45		informational
+pentest	site penetration testing	590	11.64	107.86	0.46	50	-19		informational
+pentest	penetration testing website	590	11.64	107.86	0.46	28	-19	website penetration testing	informational
+pentest	penetration testing on website	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing site	590	11.64	107.86	0.46	50	-19	site penetration testing	informational
+pentest	penetration testing websites	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing sites	590	11.64	107.86	0.46	26	-19		informational
+pentest	website penetration testing	590	11.64	107.86	0.46	50	-19		informational
+pentest	cone penetration testing	590	3.93	17.65	0.04			cone penetration test	informational
+pentest	penetration testing companies	590	29.71	289.22	0.35	8	51		commercial
+pentest	penetration testing for website	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing a website	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing for websites	590	11.64	107.86	0.46	50	-19	website penetration testing	commercial
+pentest	penetration testing web	590	11.64	107.86	0.46	50	-19		informational
+pentest	penetration testing firm	590	29.71	289.22	0.35	23	1375		navigational
+pentest	penetration testing reports	480	10	122.12	0.26	7		penetration test report	informational
+pentest	penetration testing and cybersecurity	480	10.02	85.34	0.38	25			commercial
+pentest	penetration testing cyber security	480	7.25	42.19	0.27	26	-19	penetration testing in cyber security	informational
+pentest	penetration testing and cyber security	480	10.02	85.34	0.38	18			commercial
+pentest	penetration testing ethical hacking	480	4.93	19.69	0.16	12	-64		informational
+pentest	penetration testing and ethical hacking	480	4.93	19.69	0.16	6	-64		informational
+pentest	ethical hacking penetration testing	480	4.93	19.69	0.16	11	-64	penetration testing ethical hacking	informational
+pentest	rapid7 penetration testing	480	36.54	137.76	0.25	6	-81		informational
+pentest	cybersecurity penetration testing	480	10.02	85.34	0.38	18			informational
+pentest	penetration testing report	480	10	122.12	0.26	7		penetration test report	informational
+pentest	penetration testing reporting	480	10	122.12	0.26	7		penetration test report	informational
+pentest	penetration testing in ethical hacking	480	4.93	19.69	0.16	28	-64	penetration testing ethical hacking	informational
+pentest	cyber security penetration testing	480	10.02	85.34	0.38	18		penetration testing in cyber security	informational
+pentest	penetration testing cybersecurity	480	7.25	42.19	0.27	36	-19	cybersecurity penetration testing	informational
+pentest	penetration testing cost	390	13.83	113.61	0.55	1	-71	penetration test cost	informational
+pentest	penetration testing black box	390	7.28	103.19	0.15		-81	black box penetration testing	informational
+pentest	penetration testing costs	390	13.83	113.61	0.55	5	-71	penetration test cost	informational
+pentest	penetration testing prices	390	13.83	113.61	0.55	5	-71	penetration testing pricing	commercial
+pentest	black box penetration testing	390	7.28	103.19	0.15		-81		informational
+pentest	automated penetration testing software	390	27.59	180.39	0.25	6	22	automated penetration testing	commercial
+pentest	security testing penetration testing	390	12.9	120.28	0.45	41	-65	security penetration testing	informational
+pentest	automate penetration testing	390	27.59	180.39	0.25	6	22	automated penetration testing	informational
+pentest	security testing and penetration testing	390	12.9	120.28	0.45	41	-65	security and penetration testing	informational
+pentest	cost of penetration testing	390	13.83	113.61	0.55	5	-71	penetration test cost	informational
+pentest	computer security penetration testing	390	12.9	120.28	0.45	41	-65	security penetration testing	informational
+pentest	information security penetration testing	390	12.9	120.28	0.45	25	-65		informational
+pentest	artificial intelligence penetration testing	390	17.24	120	0.63	11	22	ai pen testing	informational
+pentest	security penetration testing	390	12.9	120.28	0.45	41	-65		informational
+pentest	security and penetration testing	390	12.9	120.28	0.45	19	-65		informational
+pentest	automating penetration testing	390	27.59	180.39	0.25	6	22	automated penetration testing	informational
+pentest	penetration and security testing	390	12.9	120.28	0.45	41	-65	security and penetration testing	informational
+pentest	automation penetration testing	390	27.59	180.39	0.25	6	22	automated penetration testing	informational
+pentest	physical penetration testing	390	4.12	23.3	0.22	1	23		informational
+pentest	automated penetration testing	390	27.59	180.39	0.25	6	22		informational
+pentest	penetration testing price	390	13.83	113.61	0.55	5	-71	penetration testing pricing	commercial
+pentest	it security penetration testing	390	12.9	120.28	0.45	41	-65	it security penetration test	informational
+pentest	penetration testing it security	390	12.9	120.28	0.45	20	-65	it security penetration test	informational
+pentest	penetration testing pricing	390	13.83	113.61	0.55	5	-71		commercial
+pentest	penetration testing information security	390	12.9	120.28	0.45	41	-65	information security penetration testing	informational
+pentest	ai penetration testing	390	17.24	120	0.63	11	22	penetration test ai	commercial
+pentest	penetration security testing	390	12.9	120.28	0.45	41	-65	security penetration testing	informational
+pentest	training penetration testing	320	6.74	413.21	0.39	3	-35	penetration testing training	informational
+pentest	penetration testing pci	320	18.87	200.3	0.2	2	-72	pci penetration testing	informational
+pentest	penetration testing training	320	7.64	376.35	0.29	17	-46		informational
+pentest	external penetration testing	320	32.78	221.56	0.35	1	-89		informational
+pentest	penetration testing sample report	320	4.93	24.78	0.13		86	penetration testing report sample	informational
+pentest	penetration testing define	320	3.76	25.81	0.11	53	-33	penetration test define	informational
+pentest	penetration testing tools kali linux	320	2.82	7.1	0.05	19	133		informational
+pentest	pci compliance penetration testing	320	18.87	200.3	0.2	2	-72	pci compliance penetration test	informational
+pentest	penetration testing firms	320	19.51	221.84	0.54	12	23	penetration testing firm	navigational
+pentest	penetration testing report template	320	4.93	24.78	0.13		86	penetration test report template	informational
+pentest	meaning of penetration testing	320	3.76	25.81	0.11	53	-33	penetration testing meaning	informational
+pentest	kali linux penetration testing tools	320	2.82	7.1	0.05	19	133	penetration testing tools kali linux	informational
+pentest	penetration testing agencies	320	19.51	221.84	0.54	12	23		navigational
+pentest	pci penetration testing	320	18.87	200.3	0.2	2	-72		informational
+pentest	penetration testing course	320	6.74	413.21	0.39	3	-35		informational
+pentest	nmap penetration testing	320			0		181		informational
+pentest	penetration testing definition	320	3.76	25.81	0.11	53	-33	penetration tests definition	informational
+pentest	kali linux tools for penetration testing	320	2.82	7.1	0.05	23	133	penetration testing tools kali linux	commercial
+pentest	penetration testing pci compliance	320	18.87	200.3	0.2	4	-72	pci compliance penetration test	informational
+pentest	pci dss penetration testing	320	18.87	200.3	0.2	3	-72		informational
+pentest	penetration testing courses	320	7.64	376.35	0.29	14	-46	penetration testing course	informational
+pentest	penetration testing report sample	320	4.93	24.78	0.13		86		informational
+pentest	penetration testing tools in kali linux	320	2.82	7.1	0.05	19	133	penetration testing tools kali linux	informational
+pentest	penetration testing programs	260	11.28	80.68	0.33	28	-56		informational
+pentest	vulnerability assessment and penetration testing	260	9.7	61.86	0.25	5	-58		informational
+pentest	ethical hacking and penetration testing	260	4.99	21.47	0.06	6	325	penetration testing and ethical hacking	informational
+pentest	mobile application penetration testing	260	16.76	137.54	0.19	5	-33		informational
+pentest	penetration testing mobile apps	260	16.76	137.54	0.19	5	-33	mobile app penetration testing	commercial
+pentest	penetration testing white box	260	21.96	168.7	0.32		-46		informational
+pentest	penetration testing mobile app	260	16.76	137.54	0.19	5	-33	mobile app penetration testing	transactional
+pentest	vulnerability assessment vs penetration testing	260	4.7	42.52	0.07	1			informational
+pentest	penetration testing vs vulnerability testing	260	4.7	42.52	0.07	1			informational
+pentest	penetration testing software	260	11.28	80.68	0.33	22	-56	software penetration test	commercial
+pentest	vulnerability testing and penetration testing	260	9.7	61.86	0.25	13	-58		informational
+pentest	whitebox penetration testing	260	21.96	168.7	0.32		-46		informational
+pentest	mobile app penetration testing	260	16.76	137.54	0.19	5	-33		commercial
+pentest	vulnerability assessment & penetration testing	260	9.7	61.86	0.25	9	-58		informational
+pentest	penetration testing company	260	35.78	350	0.29	13	-34	penetration testing companies	navigational
+pentest	penetration testing in software testing	260	11.28	80.68	0.33	22	-56	software penetration test	informational
+pentest	penetration testing vs vulnerability scanning	260	2.25	66.14	0.28	2	-77	vulnerability scanning vs penetration testing	informational
+pentest	vulnerability scan vs penetration testing	260	2.25	66.14	0.28	2	-77	vulnerability scanning vs penetration testing	informational
+secassess	cyber security risk assessment	1600	7.25	39.21	0.15	10	-75		informational
+secassess	risk assessment for cyber security	1600	7.25	39.21	0.15	10	-75	cyber security risk assessment	informational
+secassess	risk assessment cyber security	1600	7.25	39.21	0.15	10	-75	cyber security risk assessment	informational
+secassess	cyber security assessment	1000	9.26	50	0.26	15	-80	cybersecurity assessment	informational
+secassess	assessment cyber security	1000	9.26	50	0.26	15	-80	cybersecurity assessment	informational
+secassess	security and risk assessment	590	5.24	33.21	0.29	14	-33	security risk assessment	informational
+secassess	security risk assessment	590	5.24	33.21	0.29	14	-33		informational
+secassess	risk assessment for security	590	5.24	33.21	0.29	14	-33	security risk assessment	informational
+secassess	risk assessment security	590	5.24	33.21	0.29	14	-33	security risk assessment	informational
+secassess	cyber security risk assessment services	590	8	93.01	0.11	17	-81	cyber security risk assessment service	commercial
+secassess	assessment security	590	5.88	45.94	0.24	1	-64	security assessments	informational
+secassess	cyber security risk assessment service	590	8	93.01	0.11	17	-81		commercial
+secassess	security assessment	590	5.88	45.94	0.24	1	-64	security assessments	informational
+secassess	risk assessment in security	590	5.24	33.21	0.29	14	-33	security risk assessment	informational
+secassess	assessment of security	590	5.88	45.94	0.24	1	-64	security assessments	informational
+secassess	security threat assessment	480	3.8	15.6	0.26	9			informational
+secassess	cyber security assessment service	390			0.08	3	-92	cybersecurity assessment services	commercial
+secassess	cyber security assessment services	390			0.08	8	-92	cybersecurity assessment services	commercial
+secassess	cloud security assessment	390	30.82	60	0.13		-82		informational
+secassess	tsa security threat assessment	390			0.01	18	23	security threat assessment tsa	informational
+secassess	security threat assessment tsa	390			0.01	22	23		informational
+secassess	cyber security risk assessment tool	320	20.95	60.43	0.1	17	-56		informational
+secassess	cyber security risk assessment tools	320	20.95	60.43	0.1	8	-56	cyber security risk assessment tool	informational
+secassess	hipaa security risk assessment	260	9.56	53.8	0.35	7	-47		informational
+secassess	security risk assessment hipaa	260	9.56	53.8	0.35	7	-47	hipaa security risk assessment	informational
+secassess	cyber security threat assessment	260	6.01	17.03	0.08	17	86		informational
+secassess	physical security assessment	210	6	15	0.19		-58		informational
+secassess	security guard assessment test	210	0.71	3.26	0.07		-34	security guard test	informational
+secassess	cloud security risk assessment	210	27.78	60	0.08	10			informational
+secassess	security officer assessment test	210	0.71	3.26	0.07		-34	security guard test	informational
+secassess	network security assessment	210	9.35	43.98	0.18		-88	assessing network security	informational
+secassess	cloud computing security risk assessment	210	27.78	60	0.08	9			informational
+secassess	information security vulnerability assessment	170	15.7	70	0.23	37	-72		informational
+secassess	vulnerability assessment cyber security	170	15.7	70	0.23	37	-72	vulnerability assessment cybersecurity	informational
+secassess	security and vulnerability assessment	170	8.95	25.38	0.43	38	-65	security vulnerability assessment	informational
+secassess	cyber security vulnerability assessment	170	15.7	70	0.23	37	-72	vulnerability assessment cybersecurity	informational
+secassess	hipaa security risk assessment tool	170	12.06	61.87	0.11	8			informational
+secassess	information technology security risk assessment	170	8.47	39.25	0.33	24	-78	it security risk assessment	informational
+secassess	vulnerability security assessment	170	8.95	25.38	0.43	38	-65		informational
+secassess	vulnerability assessment security	170	8.95	25.38	0.43	38	-65	vulnerability security assessment	informational
+secassess	it security assessment	170	22.33	45.36	0.19	4	-85	it security assessments	informational
+secassess	what is a security threat assessment sta	170			0				informational
+secassess	it security vulnerability assessment	170	15.7	70	0.23	37	-72	cybersecurity vulnerability assessment	informational
+secassess	information security assessment	170	22.33	45.36	0.19		-85		informational
+secassess	cyber security risk assessment software	170	13.33	51.05	0.08	17	-84		commercial
+secassess	hipaa security risk assessment template	170	4	18.31	0.53	11	-21	hipaa risk assessment template	informational
+secassess	security posture assessment	170	17.04	60	0.12	5	-47		informational
+secassess	information security and risk assessment	170	8.47	39.25	0.33	24	-78	it security risk assessment	informational
+secassess	information technology security assessment	170	22.33	45.36	0.19	7	-85		informational
+secassess	information security risk assessment	170	8.47	39.25	0.33	24	-78		informational
+secassess	it security risk assessment	170	8.47	39.25	0.33	24	-78	it security risk assessments	informational
+secassess	cyber security risk assessment template	170	8.24	25.81	0.32		-57		informational
+secassess	security vulnerability assessment	170	8.95	25.38	0.43	38	-65	vulnerability security assessment	informational
+secassess	it security assessment report	140	9.69	34.53	0.33		-36	security assessment report	informational
+secassess	security assessment reporting	140	9.69	34.53	0.33		-36	security assessment report	informational
+secassess	security assessment report	140	9.69	34.53	0.33		-36		informational
+secassess	information security assessment report	140	9.69	34.53	0.33		-36	security assessment report	informational
+secassess	security risk assessment tool	140	15.03	46.07	0.48	10	-55		informational
+secassess	application security assessment	140	16.4	34.67	0.16		-92		informational
+secassess	security assessment reports	140	9.69	34.53	0.33		-36	security assessment report	informational
+secassess	app security assessment	140	16.4	34.67	0.16		-92		informational
+secassess	cyber security assessment tool	110	20.25	142.51	0.15	7	-64	cybersecurity assessment tool	informational
+secassess	what is a security assessment	110			0.02	1	57		informational
+secassess	cyber security assessment tools	110	20.25	142.51	0.15	12	-64	cybersecurity assessment tool	commercial
+secassess	vendor security assessment	110	19.25	73.65	0.5	7	-36		commercial
+secassess	what is security assessment	110			0.02	4	57	what is a security assessment	informational
+secassess	cyber security maturity assessment	110	14.08	67.36	0.17		-29		informational
+secassess	test security for the texas assessment program	90			0				informational
+secassess	cloud security assessment tool	90			0.07	1	-89	cloud security assessment tools	informational
+secassess	risk assessment in cyber security	90	8.45	39.23	0.37	23	-40	cyber security risk assessment	informational
+secassess	what is a security threat assessment	90			0.02		29	what is security threat assessment	informational
+secassess	department of homeland security threat assessment	90			0	15	-40		informational
+secassess	homeland security threat assessment	90			0	8	-40		informational
+secassess	cloud security assessment service	90			0.06	1	-86	cloud security assessment services	commercial
+secassess	cloud security assessment tools	90			0.07	19	-89		commercial
+secassess	bioterrorism security assessment alliance	90			0		67		informational
+secassess	what is a cyber security risk assessment	90	3.83	20.1	0.01	17	1200	what is risk assessment in cyber security	informational
+secassess	cloud security assessment services	90			0.06	7	-86		commercial
+secassess	risk assessment physical security	90	4	11.72	0.17	2	-71	physical security risk assessment	informational
+secassess	physical security risk assessment	90	4	11.72	0.17	2	-71		informational
+secassess	what is security threat assessment	90			0.02		29		informational
+secassess	security gap assessment	70	7.45	35.29	0.29		-73		informational
+secassess	cyber security risk assessment framework	70	9.49	29.4	0.12	25	-64		informational
+secassess	what is risk assessment in security	70	2.68	20	0.05	1	120		informational
+secassess	risk assessment in network security	70			0.13	23	-86	risk assessment network security	informational
+secassess	risk assessment template security	70	4.02	15.81	0.69		-57	security risk assessment template	informational
+secassess	security assessment and testing	70	5.41	41.02	0.31	1	-64		informational
+secassess	network security risk assessment	70			0.13	7	-86	risk assessment network security	informational
+secassess	security control assessment	70	9.52	52.32	0.21		-78	security controls assessment	informational
+secassess	security threat assessment sta	70			0	9	-44		informational
+secassess	security assessment tool	70	12.47	45.22	0.68	13	-86	security assessment tools	informational
+secassess	risk assessment network security	70			0.13	11	-86		informational
+secassess	security risk assessment templates	70	4.02	15.81	0.69		-57	security risk assessment template	informational
+secassess	security assessment test	70	5.41	41.02	0.31	1	-64		informational
+secassess	what is a security risk assessment	70	2.68	20	0.05	30	120	what is risk assessment in security	informational
+secassess	security risk assessment template	70	4.02	15.81	0.69		-57		informational
+secassess	web app security assessment	70			0.13	27	-80		commercial
+secassess	ai security assessment	70	27.1	60	0.43	13	-20		informational
+secassess	security risk assessment services	70			0.11	13	-93		commercial
+secassess	lifetime information security awareness test out assessment answers	70			0		100	lifetime information security awareness test-out assessment answers	commercial
+secassess	security risk assessment service	70			0.11	20	-93	security risk assessment services	commercial
+secassess	hhs security risk assessment tool	70	9.22	23.97	0.23	32	-44		informational
+secassess	risk assessment for network security	70			0.13	16	-86	risk assessment network security	informational
+secassess	what is security risk assessment	70	2.68	20	0.05	1	120	what is risk assessment in security	informational
+secassess	physical security assessment services	70			0.02		-82		commercial
+secassess	security assessment tools	70	12.47	45.22	0.68	8	-86		informational
+secassess	security controls assessment	70	9.52	52.32	0.21	8	-78		commercial
+secassess	web application security assessment	70			0.13		-80		commercial
+secassess	it security assessment tools	70	12.47	45.22	0.68	12	-86		informational
+secassess	network security assessment services	70			0		-91		commercial
+secassess	lifetime information security awareness test-out assessment answers	70			0		100		commercial
+secassess	the art of software security assessment	50	5.7	18.5	0.39		-29		informational
+secassess	security assessment service	50			0.15		-91		commercial
+secassess	home security assessment	50	7.77	24	0.04		29	home security assessments	informational
+secassess	cyber security risk assessment checklist	50	8.62	42.72	0.08	3			informational
+secassess	security assessment company	50	12.35	100.35	0.24		-82	security assessment companies	navigational
+secassess	security assessment services	50			0.15		-91	security assessment service	commercial
+secassess	security assessment companies	50	12.35	100.35	0.24	1	-82		commercial
+secassess	casa security assessment	50	12.66	54.24	0.58		250		informational
+secassess	hipaa security assessment	50	10	51.52	0.31		-60		informational
+redteam	red team	12100	5.28	26.09	0.14	42	22	red teaming	informational
+redteam	fire red best team	9900			0		50	best firered team	informational
+redteam	pokemon dungeon: red rescue team	9900	0.03	0.58	0.16	3	-45	pokemon dungeon red rescue team	informational
+redteam	pokemon mystery dungeon: red rescue team	9900	0.03	0.58	0.16	3	-45	pokemon mystery dungeon: rescue team red	informational
+redteam	best fire red team	9900			0		50	best firered team	informational
+redteam	good team for fire red	9900			0		50	good team fire red	informational
+redteam	red rescue team pokemon	9900	0.03	0.58	0.16	3	-45	pokemon red team rescue	informational
+redteam	red rescue team	9900	0.03	0.58	0.16	3	-45	rescue team red	informational
+redteam	best pokemon team in fire red	9900			0		50	pokemon fire red best team	informational
+redteam	good team fire red	9900			0		50		informational
+redteam	pokemon mystery dungeon red rescue team	9900	0.03	0.58	0.16	3	-45	pokemon mystery dungeon: rescue team red	informational
+redteam	pokémon fire red best team	9900			0		50		informational
+redteam	pokemon fire red best team	9900			0		50		informational
+redteam	pokémon mystery dungeon red rescue team	9900	0.03	0.58	0.16	3	-45	pokémon mystery dungeon: red rescue team	informational
+redteam	pokemon red blue rescue team	9900	0.03	0.58	0.16	3	-45	pokemon mystery dungeon red rescue team	informational
+redteam	best fire red pokemon team	9900			0		50	pokemon fire red best team	informational
+redteam	best team fire red	9900			0		50	best firered team	informational
+redteam	pokémon mystery dungeon: blue/red rescue team	9900	0.03	0.58	0.16	4	-45		informational
+redteam	mystery dungeon: red rescue team	9900	0.03	0.58	0.16	3	-45	mystery dungeon red rescue team	informational
+redteam	best team in pokemon fire red	9900			0		50	pokemon fire red best team	informational
+redteam	best team in fire red	9900			0		50	best firered team	informational
+redteam	fire red best pokemon team	9900			0		50	pokemon fire red best team	commercial
+redteam	best pokemon fire red team	9900			0		50	pokemon fire red best team	informational
+redteam	pokemon rescue team red	9900	0.03	0.58	0.16	3	-45	pokemon red team rescue	informational
+redteam	pokémon mystery dungeon: red rescue team	9900	0.03	0.58	0.16	1	-45		informational
+redteam	best team for pokemon fire red	9900			0		50	pokemon fire red best team	informational
+redteam	best pokemon team fire red	9900			0		50	pokemon fire red best team	informational
+redteam	pokemon fire red best pokemon team	9900			0		50	pokemon fire red best team	informational
+redteam	pokemon mystery dungeon blue red rescue team	9900	0.03	0.58	0.16	3	-45	pokemon mystery dungeon red rescue team	informational
+redteam	pmd red rescue team	9900	0.03	0.58	0.16	3	-45	pokemon mystery dungeon red rescue team	navigational
+redteam	pokémon mystery dungeon blue/red rescue team	9900	0.03	0.58	0.16	3	-45	pokémon mystery dungeon: blue/red rescue team	informational
+redteam	mystery dungeon red rescue team	9900	0.03	0.58	0.16	3	-45		informational
+redteam	pokemon mystery dungeon rescue team red	9900	0.03	0.58	0.16	3	-45	pokemon mystery dungeon: rescue team red	informational
+redteam	pokemon mystery dungeon: rescue team red	9900	0.03	0.58	0.16	4	-45		informational
+redteam	best team for fire red	9900			0		50	best firered team	informational
+redteam	pokemon dungeon red rescue team	9900	0.03	0.58	0.16	2	-45		informational
+redteam	criminal minds: team red	8100			0	4	-45		informational
+redteam	criminal minds team red	8100			0	8	-45	criminal minds: team red	informational
+redteam	red sox team store boston	5400	0.38	1.25	0.09	4			navigational
+redteam	red sox team store fenway	5400	0.38	1.25	0.09	4			navigational
+redteam	official red sox team store	5400	0.38	1.25	0.09	4			transactional
+redteam	team principal red bull	2900			0	12	-63	red bull team principal	navigational
+redteam	red bull team principal	2900			0	13	-63		navigational
+redteam	red pokémon team	2900			0		26	red's pokémon team	informational
+redteam	pokémon red team	2900			0		173	red's pokémon team	informational
+redteam	red bull racing team principal	2900			0	12	-63		navigational
+redteam	pokemon red team	2900			0		173	red's pokemon team	informational
+redteam	boston red sox team store	2900	0.32	0.95	0.88	3		red sox team store boston	navigational
+redteam	red sox team store	2900	0.32	0.95	0.88	3			navigational
+redteam	red pokemon team	2900			0		26	red's pokemon team	informational
+redteam	what is red team	2400	1	23.61	0.04	26	81	what is red teaming	informational
+redteam	don't join team red	2400			0				informational
+redteam	what is a red team	2400	1	23.61	0.04	26	81	what is red teaming	informational
+redteam	what is the red team	2400	1	23.61	0.04	26	81	what is red teaming	informational
+redteam	red bull f1 team	1900	1	1.93	0.02	61	-47		navigational
+redteam	boston red sox minor league team	1900	0.44	1.24	0	6		boston red sox minor league teams	informational
+redteam	red sox team	1900	0.02	0.26	0.02	37	21		informational
+redteam	pokemon fire red team	1900			0		39		informational
+redteam	red sox baseball team	1900	0.02	0.26	0.02	39	21	baseball team red sox	informational
+redteam	fire red team	1900			0		39		informational
+redteam	baseball team red sox	1900	0.02	0.26	0.02	56	21		informational
+redteam	boston red sox team	1900	0.02	0.26	0.02	39	21		informational
+redteam	red socks team	1900	0.02	0.26	0.02	39	21	boston red sox team	informational
+redteam	red team armory	1900			0				navigational
+redteam	red sox minor league team	1900	0.44	1.24	0	2		red sox minor league teams	informational
+redteam	pokemon mystery dungeon red rescue team gba rom	1600			0		-33		transactional
+redteam	pokemon fire red team builder	1600			0	1	319	team builder pokemon fire red	transactional
+redteam	pokemon fire red team building	1600			0		319		informational
+redteam	fire red team builder	1600			0	2	319		informational
+redteam	pokemon mystery dungeon red rescue team rom	1600			0		-33		transactional
+redteam	pokemon team builder fire red	1600			0	1	319	team builder pokemon fire red	transactional
+redteam	pokemon mystery dungeon: red rescue team rom	1600			0		-33	pokemon mystery dungeon red rescue team rom	transactional
+redteam	nascar team red bull	1600			0.02	9	-38	team red bull nascar	informational
+redteam	red bull racing team nascar	1600			0.02	11	-38		informational
+redteam	pokemon mystery dungeon: red rescue team gba rom	1600			0		-33	pokemon mystery dungeon red rescue team gba rom	transactional
+redteam	pokemon red rescue team gba rom	1600			0		-33		transactional
+redteam	red team pokemon	1600			0		-23	red's pokemon team	informational
+redteam	red rescue team rom	1600			0		-33		informational
+redteam	team builder pokemon fire red	1600			0	3	319		transactional
+redteam	team red bull nascar	1600			0.02	29	-38		informational
+redteam	fire red team rocket hideout	1300			0		50	team rocket hideout fire red	informational
+redteam	cyber security red team	1300	5.78	20.22	0.04	30	440	red team cyber security	informational
+redteam	red bull team soccer	1300	0.4	1.61	0.01	18	60	red bull soccer teams	informational
+redteam	red team cyber security	1300	5.78	20.22	0.04	30	440		informational
+redteam	red team it security	1300	5.78	20.22	0.04	30	440		informational
+redteam	red team cybersecurity	1300	5.78	20.22	0.04	30	440		navigational
+redteam	cybersecurity red team	1300	5.78	20.22	0.04	17	440	red team cybersecurity	informational
+redteam	red bull football team	1300	0.4	1.61	0.01	23	400	red bull football teams	informational
+redteam	team rocket hideout fire red	1300			0		50		transactional
+redteam	red bulls football team	1300	0.4	1.61	0.01	37	400	red bull football teams	informational
+redteam	pokemon fire red team rocket hideout	1300			0		50		informational
+redteam	team red white and blue	1000	4.95	15.31	0.06	25			informational
+redteam	red bull team	1000	0.36	1.38	0.01	67	-12	red bull teams	informational
+redteam	red team tool	1000	1.03	11.39	0.35	22	-32	red team tools	informational
+redteam	pokemon red rescue team rom hack	1000			0.01		-45		informational
+redteam	ai red team	1000	9.21	38.15	0.53	15	48	ai red teaming	informational
+redteam	red bulls team	1000	0.36	1.38	0.01	19	-12	red bull teams	informational
+redteam	red team go	1000	7.64	34.76	0.31	4	14		informational
+redteam	best team for pokemon fire red with charizard	1000			0		238		informational
+redteam	red team tools	1000	1.03	11.39	0.35	22	-32		navigational
+redteam	pokemon fire red best team with charizard	1000			0		238	best team for pokemon fire red with charizard	informational
+redteam	fire red best team with charizard	1000			0		238		informational
+redteam	best charizard team fire red	1000			0		238	fire red best team with charizard	informational
+redteam	red team halo	1000			0		60		informational
+redteam	team red white blue	1000	4.95	15.31	0.06	25			informational
+redteam	go red team	1000	7.64	34.76	0.31	4	14	red team go	informational
+redteam	halo red team	1000			0		60	red team halo	informational
+redteam	pokemon red rescue team rom hacks	1000			0.01		-45	pokemon red rescue team rom hack	informational
+redteam	atomic red team	880	6.61	27.34	0.15	10	-12		informational
+redteam	pokemon mystery dungeon red rescue team gba	880			0.19		22	pokemon mystery dungeon: red rescue team gba	transactional
+redteam	pokemon red rescue team	880			0.16	2	-28	pokemon red team rescue	informational
+redteam	pokémon mystery dungeon: red rescue team gba	880			0.19		22		transactional
+redteam	red rescue team gba	880			0.19		22		informational
+redteam	red sox triple-a team	880	0.15	0.7	0.02	11	19	red sox triple a team	informational
+redteam	best pokemon team red version	880			0				informational
+redteam	pokemon red blue best team	880			0				informational
+redteam	gameboy advance pokemon mystery dungeon: red rescue team	880			0.19		22		informational
+redteam	boston red sox triple-a team	880	0.15	0.7	0.02	13	19		informational
+redteam	team usa red card	880			0	24			transactional
+redteam	good team for pokemon red	880			0				informational
