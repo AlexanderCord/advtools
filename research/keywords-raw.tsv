@@ -1,0 +1,495 @@
+cluster	kw	vol	low	high	comp	kd	yoy	core	intent
+pentest	penetration testing	18100	8.56	85.15	0.41	49	-33	penetration test	informational
+pentest	pentester penetration testing	18100	8.56	85.15	0.41	26	-33		informational
+pentest	software penetration testing	18100	8.56	85.15	0.41	35	-33	software penetration test	informational
+pentest	what is a penetration testing	5400	2.8	32.72	0.1	36	-18	what is penetration testing	informational
+pentest	what is penetration testing	5400	2.8	32.72	0.1	36	-18		informational
+pentest	what is penetration testing in software testing	5400	2.8	32.72	0.1	36	-18	what is penetration testing	informational
+pentest	penetration testing as a service	3600	25.37	250	0.11	7	52		commercial
+pentest	penetration testing services	3600	25.37	250	0.11	20	52		commercial
+pentest	penetration testing service	3600	25.37	250	0.11	15	52	penetration testing services	commercial
+pentest	tools for penetration testing	2400	7.03	60.28	0.37	17	-17	penetration testing tools	informational
+pentest	penetration testing tools	2400	7.03	60.28	0.37	17	-17		informational
+pentest	penetration testing tool	2400	7.03	60.28	0.37	17	-17	penetration testing tools	informational
+pentest	penetration testing salary	1900	5.36	40.56	0.02	4	-45	penetration test salary	informational
+pentest	penetration testing pay	1900	5.36	40.56	0.02	3	-45	penetration tester salary	informational
+pentest	penetration testing salaries	1900	5.36	40.56	0.02	3	-45	penetration test salary	informational
+pentest	jobs in penetration testing	1600	0.12	7.77	0.13		-33	penetration testing job	informational
+pentest	liquid penetration testing	1600	2.17	9.68	0.14	9	46	liquid penetrant testing	informational
+pentest	penetration testing vacancies	1600	0.12	7.77	0.13		-33	penetration testing jobs	navigational
+pentest	penetration testing job	1600	0.12	7.77	0.13		-33		informational
+pentest	jobs penetration testing	1600	0.12	7.77	0.13		-33	penetration testing job	navigational
+pentest	penetration testing jobs	1600	0.12	7.77	0.13		-33	penetration testing job	informational
+pentest	job penetration testing	1600	0.12	7.77	0.13		-33	penetration testing job	informational
+pentest	dye penetration testing	1300	1.4	7	0.57			dye penetrant test	informational
+pentest	certification penetration testing	1000	4.91	229.01	0.31	40	-32	penetration testing certification	navigational
+pentest	certified penetration testing	1000	4.91	229.01	0.31	40	-32	pentest certification	informational
+pentest	certification for penetration testing	1000	4.91	229.01	0.31	40	-32	penetration testing certification	informational
+pentest	penetration testing certs	1000	4.91	229.01	0.31	40	-32		informational
+pentest	penetration testing certifications	1000	4.91	229.01	0.31	18	-32	penetration testing certification	informational
+pentest	penetration testing certification	1000	4.91	229.01	0.31	40	-32		informational
+pentest	certifications for penetration testing	1000	4.91	229.01	0.31	40	-32	penetration testing certification	informational
+pentest	penetration testing of web applications	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing kali linux	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	kali linux for penetration testing	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	penetration testing for web application	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing using kali linux	880	2.46	10.77	0.06	16	7100	using kali linux for penetration testing	informational
+pentest	penetration testing using kali	880	2.46	10.77	0.06	16		kali linux penetration testing	informational
+pentest	kali linux penetration testing	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	using kali linux for penetration testing	880	2.46	10.77	0.06	16			informational
+pentest	penetration testing with kali linux	880	2.46	10.77	0.06	16			informational
+pentest	penetration testing on web application	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing web application	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	penetration testing for web applications	880	20.61	181.34	0.28	24	-56	web application penetration testing	informational
+pentest	web application penetration testing	880	20.61	181.34	0.28	24	-56		informational
+pentest	penetration testing in kali linux	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	penetration testing on kali linux	880	2.46	10.77	0.06	16		penetration testing with kali linux	informational
+pentest	penetration testing with kali	880	2.46	10.77	0.06	20		kali penetration testing	informational
+pentest	kali penetration testing	880	2.46	10.77	0.06	16			informational
+pentest	penetration testing of network	720	13.15	130.69	0.15	16	-45	network penetration testing	informational
+pentest	dynamic cone penetration testing	720	1.88	11.43	0.07			dynamic cone penetration test	informational
+pentest	penetration testing meaning	720	2.94	22.13	0.16	53			informational
+pentest	standard penetration testing	720	2.75	17.27	0.02		-18	standard penetration test	informational
+pentest	penetration testing on network	720	13.15	130.69	0.15	16	-45	network penetration testing	informational
+pentest	penetration testing network	720	13.15	130.69	0.15	16	-45	network penetration testing	informational
+pentest	network penetration testing	720	13.15	130.69	0.15	16	-45		informational
+pentest	site penetration testing	590	11.64	107.86	0.46	50	-19		informational
+pentest	penetration testing website	590	11.64	107.86	0.46	28	-19	website penetration testing	informational
+pentest	penetration testing on website	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing site	590	11.64	107.86	0.46	50	-19	site penetration testing	informational
+pentest	penetration testing websites	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing sites	590	11.64	107.86	0.46	26	-19		informational
+pentest	website penetration testing	590	11.64	107.86	0.46	50	-19		informational
+pentest	cone penetration testing	590	3.93	17.65	0.04			cone penetration test	informational
+pentest	penetration testing companies	590	29.71	289.22	0.35	8	51		commercial
+pentest	penetration testing for website	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing a website	590	11.64	107.86	0.46	50	-19	website penetration testing	informational
+pentest	penetration testing for websites	590	11.64	107.86	0.46	50	-19	website penetration testing	commercial
+pentest	penetration testing web	590	11.64	107.86	0.46	50	-19		informational
+pentest	penetration testing firm	590	29.71	289.22	0.35	23	1375		navigational
+pentest	penetration testing reports	480	10	122.12	0.26	7		penetration test report	informational
+pentest	penetration testing and cybersecurity	480	10.02	85.34	0.38	25			commercial
+pentest	penetration testing cyber security	480	7.25	42.19	0.27	26	-19	penetration testing in cyber security	informational
+pentest	penetration testing and cyber security	480	10.02	85.34	0.38	18			commercial
+pentest	penetration testing ethical hacking	480	4.93	19.69	0.16	12	-64		informational
+pentest	penetration testing and ethical hacking	480	4.93	19.69	0.16	6	-64		informational
+pentest	ethical hacking penetration testing	480	4.93	19.69	0.16	11	-64	penetration testing ethical hacking	informational
+pentest	rapid7 penetration testing	480	36.54	137.76	0.25	6	-81		informational
+pentest	cybersecurity penetration testing	480	10.02	85.34	0.38	18			informational
+pentest	penetration testing report	480	10	122.12	0.26	7		penetration test report	informational
+pentest	penetration testing reporting	480	10	122.12	0.26	7		penetration test report	informational
+pentest	penetration testing in ethical hacking	480	4.93	19.69	0.16	28	-64	penetration testing ethical hacking	informational
+pentest	cyber security penetration testing	480	10.02	85.34	0.38	18		penetration testing in cyber security	informational
+pentest	penetration testing cybersecurity	480	7.25	42.19	0.27	36	-19	cybersecurity penetration testing	informational
+pentest	penetration testing cost	390	13.83	113.61	0.55	1	-71	penetration test cost	informational
+pentest	penetration testing black box	390	7.28	103.19	0.15		-81	black box penetration testing	informational
+pentest	penetration testing costs	390	13.83	113.61	0.55	5	-71	penetration test cost	informational
+pentest	penetration testing prices	390	13.83	113.61	0.55	5	-71	penetration testing pricing	commercial
+pentest	black box penetration testing	390	7.28	103.19	0.15		-81		informational
+pentest	automated penetration testing software	390	27.59	180.39	0.25	6	22	automated penetration testing	commercial
+pentest	security testing penetration testing	390	12.9	120.28	0.45	41	-65	security penetration testing	informational
+pentest	automate penetration testing	390	27.59	180.39	0.25	6	22	automated penetration testing	informational
+pentest	security testing and penetration testing	390	12.9	120.28	0.45	41	-65	security and penetration testing	informational
+pentest	cost of penetration testing	390	13.83	113.61	0.55	5	-71	penetration test cost	informational
+pentest	computer security penetration testing	390	12.9	120.28	0.45	41	-65	security penetration testing	informational
+pentest	information security penetration testing	390	12.9	120.28	0.45	25	-65		informational
+pentest	artificial intelligence penetration testing	390	17.24	120	0.63	11	22	ai pen testing	informational
+pentest	security penetration testing	390	12.9	120.28	0.45	41	-65		informational
+pentest	security and penetration testing	390	12.9	120.28	0.45	19	-65		informational
+pentest	automating penetration testing	390	27.59	180.39	0.25	6	22	automated penetration testing	informational
+pentest	penetration and security testing	390	12.9	120.28	0.45	41	-65	security and penetration testing	informational
+pentest	automation penetration testing	390	27.59	180.39	0.25	6	22	automated penetration testing	informational
+pentest	physical penetration testing	390	4.12	23.3	0.22	1	23		informational
+pentest	automated penetration testing	390	27.59	180.39	0.25	6	22		informational
+pentest	penetration testing price	390	13.83	113.61	0.55	5	-71	penetration testing pricing	commercial
+pentest	it security penetration testing	390	12.9	120.28	0.45	41	-65	it security penetration test	informational
+pentest	penetration testing it security	390	12.9	120.28	0.45	20	-65	it security penetration test	informational
+pentest	penetration testing pricing	390	13.83	113.61	0.55	5	-71		commercial
+pentest	penetration testing information security	390	12.9	120.28	0.45	41	-65	information security penetration testing	informational
+pentest	ai penetration testing	390	17.24	120	0.63	11	22	penetration test ai	commercial
+pentest	penetration security testing	390	12.9	120.28	0.45	41	-65	security penetration testing	informational
+pentest	training penetration testing	320	6.74	413.21	0.39	3	-35	penetration testing training	informational
+pentest	penetration testing pci	320	18.87	200.3	0.2	2	-72	pci penetration testing	informational
+pentest	penetration testing training	320	7.64	376.35	0.29	17	-46		informational
+pentest	external penetration testing	320	32.78	221.56	0.35	1	-89		informational
+pentest	penetration testing sample report	320	4.93	24.78	0.13		86	penetration testing report sample	informational
+pentest	penetration testing define	320	3.76	25.81	0.11	53	-33	penetration test define	informational
+pentest	penetration testing tools kali linux	320	2.82	7.1	0.05	19	133		informational
+pentest	pci compliance penetration testing	320	18.87	200.3	0.2	2	-72	pci compliance penetration test	informational
+pentest	penetration testing firms	320	19.51	221.84	0.54	12	23	penetration testing firm	navigational
+pentest	penetration testing report template	320	4.93	24.78	0.13		86	penetration test report template	informational
+pentest	meaning of penetration testing	320	3.76	25.81	0.11	53	-33	penetration testing meaning	informational
+secaudit	sysadmin audit network security sans institute	4400	1.24	4.77	0.36	40	-33	sans institute	navigational
+secaudit	sysadmin audit network security sans	4400	1.24	4.77	0.36	40	-33	sans institute	navigational
+secaudit	cyber security audit service	880	24.91	538.34	0.06	9	-64	cybersecurity audit service	commercial
+secaudit	security and audit	880	7.69	67.92	0.18	10	-28	audit and security	commercial
+secaudit	social security wait time audit	880			0	12			commercial
+secaudit	audit in security	880	7.69	67.92	0.18	2	-28	security auditing	informational
+secaudit	security audit	880	7.69	67.92	0.18	19	-28	security auditing	commercial
+secaudit	audit information security	880	7.69	67.92	0.18	15	-28		informational
+secaudit	cyber security audit	880	6	41.54	0.37	9	-52	cybersecurity auditing	commercial
+secaudit	cyber security audit services	880	24.91	538.34	0.06	10	-64	cybersecurity audit service	commercial
+secaudit	computer security audit	880	7.69	67.92	0.18	2	-28	computer security auditing	commercial
+secaudit	audit it security	880	7.69	67.92	0.18	10	-28		commercial
+secaudit	security it audit	880	7.69	67.92	0.18	10	-28	audit it security	commercial
+secaudit	audit and security	880	7.69	67.92	0.18	2	-28		commercial
+secaudit	audit cyber security	880	6	41.54	0.37	6	-52	cybersecurity auditing	commercial
+secaudit	social security audit accuracy	720			0	13			commercial
+secaudit	security audit service	480	16.19	75	0.07	8	-33		commercial
+secaudit	it security audit services	480	16.19	75	0.07	5	-33	it security audit service	commercial
+secaudit	security audit services	480	16.19	75	0.07		-33	security audit service	commercial
+secaudit	it security audit service	480	16.19	75	0.07	4	-33		commercial
+secaudit	information security audit services	480	16.19	75	0.07	10	-33	security audit services	commercial
+secaudit	audit in information security	320	6.49	55.87	0.16	11	-71	audit information security	informational
+secaudit	information security audit	320	6.49	55.87	0.16	11	-71	audit information security	commercial
+secaudit	it security audit	320	6.49	55.87	0.16	13	-71	audit it security	commercial
+secaudit	information technology security audit	320	6.49	55.87	0.16	11	-71	information security auditor	commercial
+secaudit	information security and audit	320	6.49	55.87	0.16	11	-71	information security auditor	informational
+secaudit	aws security audit	260	9.73	60	0.19	10	-67	aws security audits	commercial
+secaudit	security audit network	210	13.59	56.07	0.11		-81	network security audits	commercial
+secaudit	audit network security	210	13.59	56.07	0.11	14	-81	network security audits	informational
+secaudit	network security audit	210	13.59	56.07	0.11		-81	network security audits	informational
+secaudit	security audit in network security	210	13.59	56.07	0.11	4	-81	network security audits	informational
+secaudit	audit in network security	210	13.59	56.07	0.11	3	-81	network security audits	informational
+secaudit	web security audit	170	12.29	67.73	0.4	21	-73		commercial
+secaudit	website audit security	170	12.29	67.73	0.4	21	-73	security audit of website	commercial
+secaudit	cloud security audit	170	12.71	60	0.15	1	-85	auditing cloud security	commercial
+secaudit	what is it security audit	170			0.01	19	-19		informational
+secaudit	what is an information security audit	170			0.01	9	-19		informational
+secaudit	what is a security audit	170			0.01	9	-19		informational
+secaudit	security audit for website	170	12.29	67.73	0.4	21	-73	security audit of website	commercial
+secaudit	security audit website	170	12.29	67.73	0.4	45	-73	security audit of website	commercial
+secaudit	website security audit	170	12.29	67.73	0.4	21	-73	security audit of website	commercial
+secaudit	what is security audit	170			0.01	19	-19	what is a security audit	informational
+secaudit	security audit of website	170	12.29	67.73	0.4	21	-73		commercial
+secaudit	cyber security audit salary	170			0		-46		informational
+secaudit	what is information security audit	170			0.01	2	-19	what is an information security audit	informational
+secaudit	security audit of websites	170	12.29	67.73	0.4	21	-73	security audit of website	commercial
+secaudit	what is an it security audit	170			0.01	16	-19	what is it security audit	informational
+secaudit	audit website security	170	12.29	67.73	0.4	21	-73	security audit of website	commercial
+secaudit	cyber security audit jobs	140	0.1	4.81	0.09		-33		informational
+secaudit	audit data security	110			0.09		-89	data security audits	informational
+secaudit	data security audit	110			0.09	2	-89	data security audits	commercial
+secaudit	it security audit software	90	28.07	75	0.15	11	-44	software security audit	commercial
+secaudit	blockchain security audit	90			0.01	24	-67		commercial
+secaudit	wp security audit	90	7.95	26.57	0.06	11	200		commercial
+secaudit	computer security audit software	90	28.07	75	0.15	8	-44	software security audit	commercial
+secaudit	security audit checklist	90	5.19	20.5	0.09		-44		informational
+secaudit	security audit software	90	28.07	75	0.15	2	-44		commercial
+secaudit	software security audit	90	28.07	75	0.15		-44	security audit software	commercial
+secaudit	cyber security audit checklist	90	11.06	47.73	0.1		27		informational
+secaudit	security audit wordpress	90	7.95	26.57	0.06	1	200		commercial
+secaudit	checklist for security audit	90	5.19	20.5	0.09		-44	security audit checklist	informational
+secaudit	what occurs during a security audit	90			0.02		-55		informational
+secaudit	information security audit checklist	90	5.19	20.5	0.09		-44		informational
+secaudit	audit software security	90	28.07	75	0.15	4	-44	security audit software	commercial
+secaudit	wordpress security audit	90	7.95	26.57	0.06	2	200	security audit wordpress	commercial
+secaudit	it security audit checklist	90	5.19	20.5	0.09		-44	security audit checklist	informational
+secaudit	it security audit process	70			0	14			informational
+secaudit	network security audit tools	70			0.11		-86		informational
+secaudit	how to perform security audit	70	5.65	10.99	0.03		2000		informational
+secaudit	information security audit tools	70	28.28	81.73	0.19		-78		commercial
+secaudit	how to perform a security audit	70	5.65	10.99	0.03		2000	how to perform security audit	informational
+secaudit	it security audit company	70	5.98	48.89	0.29	29	-71		commercial
+secaudit	information security audit process	70			0	9			informational
+secaudit	it security audit companies	70	5.98	48.89	0.29	19	-71	it security audit company	commercial
+secaudit	openclaw security audit	70			0.02	9			commercial
+secaudit	security audit tools	70	28.28	81.73	0.19		-78	security audit tool	commercial
+secaudit	network security audit tool	70			0.11	1	-86	network security audit tools	informational
+secaudit	social security audit	70			0	10	-36	social security audits	informational
+secaudit	github security audit	70	12.9	49.2	0.51	13			informational
+secaudit	security audit procedure	70			0	5		security audit procedures	informational
+secaudit	how to conduct security audit	70	5.65	10.99	0.03		2000	how to conduct a security audit	informational
+secaudit	physical security audit	70	8	15	0.08		-56	physical security audits	commercial
+secaudit	security audit company	70	5.98	48.89	0.29	25	-71	security auditing companies	commercial
+secaudit	audit social security	70			0	9	-36	social security audits	informational
+secaudit	security audit procedures	70			0	5			informational
+secaudit	how to conduct a security audit	70	5.65	10.99	0.03		2000		informational
+secaudit	it security audit tools	70	28.28	81.73	0.19		-78	security audit tools	informational
+secaudit	security audit tool	70	28.28	81.73	0.19		-78		commercial
+secaudit	security audit jobs	70	0.22	12.92	0.1	4	-44		informational
+secaudit	advanced security audit policy settings	70			0.07	4	-71		commercial
+secaudit	security audit companies	70	5.98	48.89	0.29	13	-71	security auditing companies	commercial
+secaudit	company security audit	70	5.98	48.89	0.29	8	-71	security auditing companies	commercial
+secaudit	security audit process	70			0	7			commercial
+soc2	soc 2	22200	8.22	59.83	0.48	51			informational
+soc2	soc-2	22200	8.22	59.83	0.48	51		soc 2	informational
+soc2	soc 2 compliant	12100	12.32	98.44	0.62	30		soc 2 compliance	informational
+soc2	soc 2 compliance	12100	12.32	98.44	0.62	32			informational
+soc2	soc type 2	4400	6.98	59.34	0.54	26	-18	soc 2 type 2	informational
+soc2	what is soc 2	4400	1.51	11.1	0.35	35	24		informational
+soc2	soc i type 2	4400	6.98	59.34	0.54	26	-18		informational
+soc2	what is a soc 2	4400	1.51	11.1	0.35	35	24	what is soc 2	informational
+soc2	soc 2 type 2	4400	6.98	59.34	0.54	26	-18		informational
+soc2	soc 2 certified	3600	15.45	135.24	0.64	24	-19		informational
+soc2	soc 2 certification	3600	15.45	135.24	0.64	27	-19		informational
+soc2	what is soc 2 compliance	2900	1.65	13.62	0.46	28	50		informational
+soc2	soc sci 2	2900			0.01		-41		informational
+soc2	what is soc 2 compliant	2900	1.65	13.62	0.46	28	50		informational
+soc2	soc 2 audits	1900	19.32	204.56	0.24	29	53	soc 2 audit	navigational
+soc2	soc 1 vs soc 2	1900	1.98	17.81	0.38	14	-21		informational
+soc2	soc 2 auditing	1900	19.32	204.56	0.24	29	53	soc 2 audit	informational
+soc2	soc 2 auditors	1900	19.32	204.56	0.24	14	53	soc 2 auditor	navigational
+soc2	soc ii type 2	1900	7.44	53.18	0.54	26	19	soc 2 type ii	informational
+soc2	soc 1 vs 2	1900	1.98	17.81	0.38	14	-21	soc 1 vs soc 2	informational
+soc2	soc 2 report	1900	6.21	43.82	0.46	23			informational
+soc2	soc 2 reports	1900	6.21	43.82	0.46	34		soc 2 report	informational
+soc2	soc 2 reporting	1900	6.21	43.82	0.46	41		soc 2 report	informational
+soc2	soc 2 audit	1900	19.32	204.56	0.24	39	53		navigational
+soc2	soc 2 type ii	1900	7.44	53.18	0.54	26	19		informational
+soc2	soc 2 auditor	1900	19.32	204.56	0.24	11	53		navigational
+soc2	audit soc 2	1900	19.32	204.56	0.24	35	53	soc 2 audit	informational
+soc2	soc 2 compliance audits	1300	46.66	288.09	0.05	35	-45		commercial
+soc2	soc 2 compliance audit	1300	46.66	288.09	0.05	27	-45	soc 2 compliance audits	informational
+soc2	soc 2 compliance auditor	1300	46.66	288.09	0.05	27	-45	soc 2 compliance audit	navigational
+soc2	soc 1 type 2 vs soc 2 type 2	880	4.83	44.87	0.55	5	171	soc 2 type 1 vs soc 2 type 2	informational
+soc2	soc 1 type 2 vs soc 2	880	4.83	44.87	0.55	5	171	soc 2 type 1 vs soc 2 type 2	informational
+soc2	type 2 soc 1	880	3.28	22.49	0.44	5	-18	soc 1 type 2	informational
+soc2	soc 2 type 1	880	10	102.47	0.59	14	-33	soc 1 type 2	informational
+soc2	soc 2 audit services	880			0.07	17	-89		navigational
+soc2	soc 2 type 1 and type 2	880	3.28	22.49	0.44	12	-18		informational
+soc2	soc 2 type 1 vs type 2	880	4.83	44.87	0.55	5	171	soc 2 type 1 vs soc 2 type 2	informational
+soc2	soc 2 type 1 versus type 2	880	4.83	44.87	0.55	5	171		informational
+soc2	soc 1 type 2	880	3.28	22.49	0.44	5	-18		informational
+soc2	soc type 1 and type 2	880	3.28	22.49	0.44	5	-18	soc 2 type 1 and type 2	informational
+soc2	soc 1 type 2 vs type 1	880	4.83	44.87	0.55	4	171	soc 2 type 1 vs soc 2 type 2	informational
+soc2	soc 2 type 1 vs soc 2 type 2	880	4.83	44.87	0.55	5	171		informational
+soc2	soc 2 meaning	720	1.49	9.39	0.37	39	39		informational
+soc2	aicpa soc 2 guide	720	17.66	71.4	0.02	18	3233		informational
+soc2	soc 2 compliance requirements	720	8.32	48.63	0.69	21	-19		informational
+soc2	delve soc 2	720	44.63	250	0.63	20	24		informational
+soc2	soc 2 compliance meaning	720	1.67	15.31	0.49	37	285		informational
+soc2	soc 2 compliant meaning	720	1.67	15.31	0.49	37	285		informational
+soc2	soc 2 means	720	1.49	9.39	0.37	39	39	soc 2 meaning	informational
+soc2	soc-2 compliance checklist	590	10.69	68.06	0.24	5	49	soc 2 compliance checklist	informational
+soc2	what is a soc 2 report	590	1.49	6.93	0.39	28	22		informational
+soc2	type 2 soc report	590	8.45	59.02	0.51	26	-19	soc 2 type 2 report	informational
+soc2	soc 2 type 2 report	590	8.45	59.02	0.51	26	-19		informational
+soc2	soc 2 compliance checklist	590	10.69	68.06	0.24	5	49		informational
+soc2	soc type 2 report	590	8.45	59.02	0.51	26	-19	soc 2 type 2 report	informational
+soc2	what is a soc-2 report	590	1.49	6.93	0.39	28	22	what is a soc 2 report	informational
+soc2	soc 2 type 2 reports	590	8.45	59.02	0.51	26	-19	soc 2 type 2 report	informational
+soc2	soc report type 2	590	8.45	59.02	0.51	26	-19	soc 2 type 2 report	informational
+soc2	aws soc 2 report	480	5.81	22.77	0.18	7	-19		informational
+soc2	soc 1 report type 2	480	3.57	15	0.29	6	-19	soc 1 type 2 reports	informational
+soc2	soc 1 type 2 report	480	3.57	15	0.29	6	-19	soc 1 type 2 reports	informational
+soc2	soc 1 type 2 reports	480	3.57	15	0.29	6	-19		informational
+soc2	soc 2 logo	480	8.48	24.92	0.06	1	-19		informational
+soc2	soc 2 compliance consultant	480	25.8	274.27	0.05	4	829		commercial
+soc2	vanta soc 2	480	23.09	398.11	0.74	72			informational
+soc2	soc 2 type 2 compliance	480	11.48	98.17	0.64	29			informational
+soc2	type 2 soc 1 report	480	3.57	15	0.29	6	-19	soc 1 type 2 reports	informational
+soc2	soc type 2 audit	480	22.23	216.7	0.12	26	85	soc 2 type 2 audit	informational
+soc2	type 1 and type 2 soc report	480	3.57	15	0.29	6	-19		informational
+soc2	what does soc 2 stand for	480	1.58	10.47	0.31	21			informational
+soc2	soc 2 type 2 audit	480	22.23	216.7	0.12	26	85		informational
+soc2	soc 2 type 2 compliant	480	11.48	98.17	0.64	38			informational
+soc2	soc type 2 compliance	480	11.48	98.17	0.64	29		soc 2 type 2 compliance	informational
+soc2	soc 2 type 2 certified	390	14.74	132.83	0.54	25	-33		informational
+soc2	what is soc 2 type 2	390	1.53	11.25	0.51	26		what is soc type 2	informational
+soc2	what is soc type 2	390	1.53	11.25	0.51	26			informational
+soc2	soc 2 type 2 certification	390	14.74	132.83	0.54	29	-33	soc type 2 certification	informational
+soc2	soc 2 compliance software	390	50.3	250	0.03	16	233		informational
+soc2	soc 2 type ii certified	390	11.1	85.02	0.58	32	23		informational
+soc2	soc 2 compliance services	390	150.98	517.46	0.17	9	-90		commercial
+soc2	soc 2 type ii certification	390	11.1	85.02	0.58	15	23		informational
+soc2	aicpa soc 2	390	19.16	100.46	0.51	7	-19		informational
+soc2	soc type 1 vs 2	320	2.22	18.51	0.34	14	22	soc 2 type 1 vs soc 2 type 2	informational
+soc2	soc 2 requirements	320	7.19	36.7	0.58	23	-19	soc 2 requirement	informational
+soc2	soc 1 type 1 vs type 2	320	2.22	18.51	0.34	14	22	soc 2 type 1 vs soc 2 type 2	informational
+soc2	github soc 2 report	320	12.29	39.38	0.07	36			navigational
+soc2	what is soc 2 certification	320	1.89	10.3	0.33	27			informational
+soc2	what is soc 2 certified	320	1.89	10.3	0.33	27		what is soc 2 certification	informational
+soc2	difference between soc1 and soc 2	320	1.41	17.32	0.36	5		difference between soc1 and soc2	informational
+soc2	soc 2 requirement	320	7.19	36.7	0.58	23	-19		informational
+soc2	difference between a soc 1 and soc 2	320	1.41	17.32	0.36	5		difference between soc 1 and soc 2	informational
+soc2	difference between soc 1 and soc 2	320	1.41	17.32	0.36	5			informational
+soc2	soc 1 type 1 vs 2	320	2.22	18.51	0.34	14	22	soc 2 type 1 vs soc 2 type 2	informational
+soc2	iso 27001 versus soc 2	260	18.42	103.25	0.44	13	-34		informational
+soc2	soc 2 type ii report	260	5.95	50.32	0.5	39	24	soc ii type 2 report	informational
+soc2	soc ii type 2 report	260	5.95	50.32	0.5	38	24		informational
+soc2	soc 2 type ii reports	260	5.95	50.32	0.5	38	24	soc ii type 2 report	informational
+soc2	soc 2 audit cost	260	23.99	131.21	0.4	8			informational
+soc2	soc 2 news	260					-100		informational
+soc2	soc 2 type ii compliant	260	7.75	56.88	0.48	31	-19		informational
+soc2	cost of a soc 2 audit	260	23.99	131.21	0.4	8		soc 2 audit cost	informational
+soc2	cost of soc 2 audit	260	23.99	131.21	0.4	8		soc 2 audit cost	informational
+soc2	iso 27001 vs soc 2	260	18.42	103.25	0.44	13	-34		informational
+soc2	soc 1 and soc 2	260	3.34	30	0.47	15	-19		informational
+soc2	soc 2 type ii compliance	260	7.75	56.88	0.48	29	-19		informational
+soc2	soc 2 versus soc 1	210	2.29	21.49	0.45	5			informational
+soc2	soc 2 certification cost	210	23.76	143.92	0.72	2	-33		commercial
+soc2	soc 2 report template	210	6.5	20.24	0.36				informational
+soc2	bridge letter soc 2	210	8.06	40.2	0.28		-18	soc 2 bridge letter	navigational
+soc2	soc 2 audit firms	210	170.62	766.09	0.22	5	-87	soc 2 audit firm	navigational
+soc2	how to get soc 2 compliant	210	31.54	188.74	0.27	14	457	how to get soc2 compliant	informational
+soc2	how to get soc 2 compliance	210	31.54	188.74	0.27	14	457		informational
+soc2	salesforce soc 2 report	210	7.62	24.34	0.16	2			informational
+soc2	soc 1 report vs soc 2	210	1.33	12.24	0.29	8	24	soc 1 vs soc 2 report	informational
+soc2	soc 2 type 1 audit	210	19.73	250	0.06	8	129		informational
+soc2	soc 2 vs soc 1	210	2.29	21.49	0.45	5	24	soc 1 vs soc 2	informational
+soc2	soc 2 compliance cost	210	28.45	138.88	0.64	5	50		commercial
+soc2	sample soc 2 report	210	6.5	20.24	0.36			soc 2 sample report	informational
+soc2	soc 2 report example	210	6.5	20.24	0.36				informational
+soc2	soc 2 sample report	210	6.5	20.24	0.36				informational
+iso27001	iso 27001	18100	4.72	37.48	0.49	56	-33		informational
+iso27001	iso-27001	18100	4.72	37.48	0.49	56	-33	iso 27001	informational
+iso27001	iso 27001 certification companies	4400	7.51	53.78	0.23	18	23	iso 27001 certification company	commercial
+iso27001	iso 27001 accreditation	4400	7.51	53.78	0.23	60	23		informational
+iso27001	iso 27001 isms certification	4400	7.51	53.78	0.23	60	23	isms iso 27001 certification	informational
+iso27001	iso 27001 certifications	4400	7.51	53.78	0.23	60	23	iso 27001 certification	informational
+iso27001	iso 27001 certified companies	4400	7.51	53.78	0.23		23		informational
+iso27001	iso 27001 certified company	4400	7.51	53.78	0.23	34	23	iso 27001 certified companies	navigational
+iso27001	iso 27001 accredited	4400	7.51	53.78	0.23	60	23	iso 27001 accreditation	informational
+iso27001	iso 27001 certification company	4400	7.51	53.78	0.23	60	23		navigational
+iso27001	iso 27001 certification	4400	7.51	53.78	0.23	60	23		informational
+iso27001	27001 iso certification	4400	7.51	53.78	0.23	60	23	iso 27001 certification	informational
+iso27001	iso certificate 27001	4400	7.51	53.78	0.23	60	23	iso 27001 certification	informational
+iso27001	certification in iso 27001	4400	7.51	53.78	0.23	60	23	iso 27001 certification	informational
+iso27001	iso 27001 certified	4400	7.51	53.78	0.23	39	23		informational
+iso27001	certification for iso 27001	4400	7.51	53.78	0.23	60	23	iso 27001 certification	informational
+iso27001	iso 27001 iec	1600	4.55	32	0.46	50	-19	iso/iec 27001	informational
+iso27001	iso/iec 27001	1600	4.55	32	0.46	50	-19		informational
+iso27001	iso iec 27001	1600	4.55	32	0.46	50	-19	iso/iec 27001	informational
+iso27001	iso 27001 what is	1300	2.36	16.51	0.37	29		what is iso 27001	informational
+iso27001	what is iso 27001	1300	2.36	16.51	0.37	29			informational
+iso27001	what is the iso 27001	1300	2.36	16.51	0.37	29		what is iso 27001	informational
+iso27001	iso 27001 certification price	590	8.68	77.54	0.53	6	-19	iso 27001 certification cost	commercial
+iso27001	iso 27001 certification fees	590	8.68	77.54	0.53	9	-19		commercial
+iso27001	iso 27001 kurs	590				20			informational
+iso27001	iso 27001 certification fee	590	8.68	77.54	0.53	6	-19	iso 27001 certification fees	commercial
+iso27001	iso 27001 certifying body	590	10.47	55.15	0.02	34			navigational
+iso27001	cost for iso 27001 certification	590	8.68	77.54	0.53	6	-19	iso 27001 certification cost	commercial
+iso27001	iso 27001 accreditation cost	590	8.68	77.54	0.53	6	-19	iso 27001 certification cost	commercial
+iso27001	iso 27001 certification costs	590	8.68	77.54	0.53	6	-19	iso 27001 certification cost	commercial
+iso27001	iso 27001 certification body	590	10.47	55.15	0.02	19		certification body for iso 27001	navigational
+iso27001	iso 27001 cost for certification	590	8.68	77.54	0.53	6	-19	iso 27001 certification cost	commercial
+iso27001	certification body for iso 27001	590	10.47	55.15	0.02	30			navigational
+iso27001	iso 27001 certification cost	590	8.68	77.54	0.53	6	-19		commercial
+iso27001	iso/iec 27001 certification	590	7.08	53.24	0.17	55	181		informational
+iso27001	iso iec 27001 certification	590	7.08	53.24	0.17	55	181	iso/iec 27001 certification	informational
+iso27001	cost of iso 27001 certification	590	8.68	77.54	0.53	6	-19	iso 27001 certification cost	commercial
+iso27001	iso 27001:2022	480	3.62	27.76	0.48	29	-19		informational
+iso27001	iso 27001 : 2022	480	3.62	27.76	0.48	29	-19	iso 27001:2022	informational
+iso27001	iso 27001: 2022	480	3.62	27.76	0.48	29	-19	iso 27001:2022	informational
+iso27001	iso 27001 2022	480	3.62	27.76	0.48	29	-19	iso 27001:2022	informational
+iso27001	iso standard 27001	390	4.33	29.77	0.54	37		iso 27001 standards	informational
+iso27001	iso 27001 standard	390	4.33	29.77	0.54	37		iso 27001 standards	informational
+iso27001	iso 27001 / pdf	390	4.42	26.33	0.53	7	-33	iso 27001 pdf	informational
+iso27001	iso 27001-compliant	390	8.41	89.5	0.42	39	-18	iso 27001 compliant	informational
+iso27001	iso/iec 27001:2022	390	3.83	30.6	0.55	47			informational
+iso27001	compliance iso 27001	390	8.41	89.5	0.42	39	-18	iso 27001 compliance	informational
+iso27001	iso standards 27001	390	4.33	29.77	0.54	50		iso 27001 standards	informational
+iso27001	27001 iso pdf	390	4.42	26.33	0.53	7	-33	iso 27001 pdf	informational
+iso27001	iso 27001 pdf	390	4.42	26.33	0.53	7	-33		informational
+iso27001	iso 27001 compliance	390	8.41	89.5	0.42	39	-18		informational
+iso27001	isms iso 27001 pdf	390	4.42	26.33	0.53	7	-33		informational
+iso27001	iso 27001 en pdf	390	4.42	26.33	0.53	7	-33	iso 27001 pdf	informational
+iso27001	iso compliance 27001	390	8.41	89.5	0.42	39	-18	iso 27001 compliance	informational
+iso27001	iso 27001 filetype pdf	390	4.42	26.33	0.53	7	-33	iso 27001 pdf	informational
+iso27001	27001 iso standard	390	4.33	29.77	0.54	37		iso 27001 standards	informational
+iso27001	iso 27001 compliant	390	8.41	89.5	0.42	43	-18		informational
+iso27001	iso 27001 standards	390	4.33	29.77	0.54	37			informational
+iso27001	pdf iso 27001	390	4.42	26.33	0.53	7	-33	iso 27001 pdf	informational
+iso27001	standard iso 27001	390	4.33	29.77	0.54	37		iso 27001 standards	informational
+iso27001	iso 27001 requirements	320	6.82	41.83	0.61	27	-34		informational
+iso27001	iso 27001 certification consultants	320			0.03		23	iso 27001 certification consulting	commercial
+iso27001	requirements of iso 27001	320	6.82	41.83	0.61	27	-34	iso 27001 requirements	informational
+iso27001	iso 27001 certification consulting	320			0.03		23		commercial
+iso27001	iso 27001 certification services	320			0.01	16	-86		commercial
+iso27001	iso 27001 means	320	1.43	9.49	0.37	45	-33	iso 27001 meaning	informational
+iso27001	iso 27001 scope examples	320			0		457	iso 27001 scope example	informational
+iso27001	iso 27001 scope example	320			0		457		informational
+iso27001	iso 27001 certification consultant	320			0.03		23	iso 27001 certification consulting	commercial
+iso27001	iso 27001 meaning	320	1.43	9.49	0.37	45	-33		informational
+iso27001	iso 27001 versus soc 2	260	18.42	103.25	0.44	13	-34		informational
+iso27001	what is iso 27001 certified	260	2.77	17.02	0.28	47	86	what is iso 27001 certification	informational
+iso27001	iso 27001 certified lead auditor	260	4.65	20	0.6	1		iso 27001 lead auditor certified	commercial
+iso27001	lead auditor iso 27001 certification	260	4.65	20	0.6	1		iso 27001 lead auditor certification	commercial
+iso27001	iso/iec 27001 lead implementer	260	5.91	20.21	0.08		212	iso 27001 lead implementer	commercial
+iso27001	iso 27001 audit certification	260	4.65	20	0.6	1		iso 27001 certification audit	informational
+iso27001	iso 27001 audit	260	9.35	93.61	0.26	4	23		informational
+iso27001	iso 27001 lead auditor certified	260	4.65	20	0.6	5			commercial
+iso27001	lead implementer iso 27001	260	5.91	20.21	0.08		212	iso 27001 lead implementer	navigational
+iso27001	iso 27001 lead auditor certification	260	4.65	20	0.6	1			commercial
+iso27001	certified iso 27001 lead auditor	260	4.65	20	0.6	1		iso 27001 lead auditor certified	commercial
+iso27001	iso/iec 27001 lead auditor certification	260	4.65	20	0.6	1		iso 27001 lead auditor certification	commercial
+iso27001	iso 27001 certification lead auditor	260	4.65	20	0.6	1		iso 27001 lead auditor certification	commercial
+iso27001	iso 27001 implementation	260	5.91	20.21	0.08	22	212		informational
+iso27001	audit iso 27001	260	9.35	93.61	0.26	4	23	iso 27001 audit	informational
+iso27001	what is iso 27001 certification	260	2.77	17.02	0.28	47	86		informational
+iso27001	controls in iso 27001	260	3.92	29.5	0.51	10	-47	iso 27001 controls	informational
+iso27001	iso 27001 lead implementer	260	5.91	20.21	0.08		212		navigational
+iso27001	certified iso iec 27001 lead auditor	260	4.65	20	0.6	1		iso 27001 lead auditor certification	commercial
+iso27001	iso 27001 audits	260	9.35	93.61	0.26	4	23	iso 27001 audit	informational
+iso27001	iso 27001 implementer	260	5.91	20.21	0.08		212	iso 27001 implementation	navigational
+iso27001	iso iec-27001-information-security-management-system	260	6.61	40	0.04	34	255		informational
+iso27001	iso 27001 vs soc 2	260	18.42	103.25	0.44	13	-34		informational
+iso27001	iso 27001 auditors	260	9.35	93.61	0.26	9	23	iso 27001 auditor	navigational
+iso27001	certification iso 27001 lead auditor	260	4.65	20	0.6	1		iso 27001 lead auditor certification	commercial
+iso27001	iso 27001 controls	260	3.92	29.5	0.51	10	-47		informational
+iso27001	what is iso 27001 accreditation	260	2.77	17.02	0.28	47	86		informational
+iso27001	iso audit 27001	260	9.35	93.61	0.26	4	23	iso 27001 audit	informational
+iso27001	iso controls 27001	260	3.92	29.5	0.51	10	-47	iso 27001 controls	informational
+iso27001	iso 27001 auditor certification	260	4.65	20	0.6	1			informational
+iso27001	iso iec 27001 information security management system	260	6.61	40	0.04	36	255	iso iec-27001-information-security-management-system	informational
+iso27001	auditor iso 27001	260	9.35	93.61	0.26	4	23	iso 27001 auditor	informational
+iso27001	iso 27001 auditor	260	9.35	93.61	0.26	4	23		informational
+iso27001	iso 27001 lead	260	5.91	20.21	0.08		212	iso 27001 lead implementer	informational
+iso27001	what is an iso 27001 certification	260	2.77	17.02	0.28	47	86	what is iso 27001 certification	informational
+iso27001	how to obtain iso 27001 certification	210	14	115.75	0.13	26	336	how to get iso 27001 certification	informational
+iso27001	iso 27002 vs 27001	210	5.37	27.02	0.1		-35	iso 27001 vs 27002	informational
+iso27001	how to get iso 27001 certified	210	14	115.75	0.13	11	336	how to get certified iso 27001	informational
+iso27001	logo iso 27001	210			0.01	34	1600	iso 27001 logo	informational
+iso27001	iso iec 27001 lead auditor	210	3.68	18.13	0.51	5	24	iso/iec 27001 lead auditor	navigational
+iso27001	iso/iec 27001 lead auditor	210	3.68	18.13	0.51	4	24		commercial
+iso27001	lead auditor iso 27001	210	3.68	18.13	0.51	5	24	iso 27001 lead auditor	navigational
+iso27001	soc2 vs iso 27001	210	16.14	78.47	0.42	29	-19	iso 27001 vs soc2	informational
+iso27001	how do i get iso 27001 certification	210	14	115.75	0.13	26	336	how to get iso 27001 certification	informational
+iso27001	iso 27001 vs iso 27002	210	5.37	27.02	0.1		-35	iso 27001 vs 27002	informational
+iso27001	iso 27001 vs 27002	210	5.37	27.02	0.1		-35		informational
+iso27001	iso 27001 lead auditor	210	3.68	18.13	0.51	5	24		navigational
+iso27001	how to get iso 27001 certification	210	14	115.75	0.13	26	336		informational
+iso27001	iso framework 27001	210	6.59	32.52	0.52	29	-65	iso 27001 framework	informational
+iso27001	soc 2 vs iso 27001	210	16.14	78.47	0.42	29	-19	iso 27001 vs soc 2	informational
+complcons	pci compliance consultant	1000	42.5	151.96	0.05		46	pci compliance consultants	commercial
+complcons	cmmc compliance consultant	880	26.69	228.14	0.02		806		commercial
+complcons	hipaa compliance consultant	880	17.13	103.36	0.11		-32	hipaa compliance consultants	informational
+complcons	compliance consultant	720	4.88	24.01	0.45	3	-33	compliance consulting	commercial
+complcons	ada compliance consultant	720	7.43	27.23	0.14		-33		commercial
+complcons	soc 2 compliance consultant	480	25.8	274.27	0.05	4	829		commercial
+complcons	gdpr compliance consultant	480			0.06		-71		commercial
+complcons	ria compliance consultant	320	10	46.78	0.51		-34	ria compliance consultants	commercial
+complcons	environmental compliance consultant	260	2.7	8	0.11	1	182	environmental compliance consulting	commercial
+complcons	osha compliance consultant	210	6.39	46.64	0.1	12	-33	osha compliance consultants	commercial
+complcons	compliance consultant careers	210	0.16	1.7	0.17		-19	compliance consulting jobs	informational
+complcons	healthcare compliance consultant	210	5.06	14.75	0.26		-46	healthcare compliance consulting	informational
+complcons	compliance consultant job	210	0.16	1.7	0.17		-19	compliance consultant jobs	informational
+complcons	compliance consultant jobs	210	0.16	1.7	0.17		-19		informational
+complcons	hr compliance consultant	170	13.5	49.27	0.34		-76		commercial
+complcons	human resources compliance consultant	170	13.5	49.27	0.34		-76	human resource compliance consultant	commercial
+complcons	human resource compliance consultant	170	13.5	49.27	0.34		-76		commercial
+complcons	securities compliance consultant	140	4.15	30.98	0.11			securities compliance consultants	commercial
+complcons	it compliance consultant	140			0.1	4	-75		commercial
+complcons	sec compliance consultant	140	4.15	30.98	0.11			sec compliance consultants	commercial
+complcons	cybersecurity compliance consultant	90	8.72	48.93	0.08	5	-71	cybersecurity compliance consulting	commercial
+complcons	dot compliance consultant	70	3.16	17.96	0.38	3			commercial
+complcons	risk and compliance consultant	70	5.25	18.25	0.48		-56	compliance and risk consultancy	commercial
+complcons	risk & compliance consultant	70	5.25	18.25	0.48		-56	risk compliance consulting	commercial
+complcons	nist 800-171 compliance consultant	70			0.11		-76		informational
+complcons	regulatory compliance consultant	70	5.2	26.37	0.49		-73	regulatory compliance consulting	commercial
+complcons	compliance consultant salary	70			0		-44	compliance consulting salary	commercial
+complcons	itar compliance consultant	50			0.54		-80	itar compliance consultants	navigational
+complcons	trade compliance consultant	50	6.42	30	0.45	1	-60	trade compliance consultants	commercial
+complcons	laboratory compliance consultant	50	2.85	8.25	0.33		100	laboratory compliance consultants	commercial
+complcons	broker-dealer compliance consultant	50	6.9	26.7	0.65		-75	broker-dealer compliance consulting	commercial
+complcons	lab compliance consultant	50	2.85	8.25	0.33		100		commercial
+complcons	fda compliance consultant	50	11.78	38.95	0.42	3	-67	fda compliance consulting	informational
+complcons	broker dealer compliance consultant	50	6.9	26.7	0.65		-75	broker-dealer compliance consulting	commercial
+complcons	compliance consultant near me	40			0.14		100	compliance consulting near me	commercial
+complcons	nist compliance consultant	40			0.05		-57		commercial
+complcons	dfars compliance consultant	40			0.08		400		navigational
+complcons	what is a compliance consultant	40			0.02		-43	what is compliance consulting	informational
+complcons	export compliance consultant	40	5.47	40.47	0.35	14	-60	export compliance consultants	commercial
+complcons	security compliance consultant	40			0.13	5	-80	securities compliance consultants	commercial
+complcons	healthcare compliance consultant jobs	40	0.27	3.41	0.11				informational
