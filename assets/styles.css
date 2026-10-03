@@ -211,7 +211,7 @@ footer .row{display:grid;gap:.35rem}
   .cta-row{flex-direction:row;align-items:center;gap:1rem}
   section{padding:3.75rem 0}
   h2{font-size:1.85rem}
-  .grid{grid-template-columns:repeat(3,1fr);gap:1rem}
+  .grid{grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem}
   .card{padding:1.45rem}
   .stats{grid-template-columns:repeat(4,1fr)}
   .stats .s{border-bottom:0;padding:1.1rem 1rem 0 0}
