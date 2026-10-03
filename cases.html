@@ -37,7 +37,7 @@
 <div class="hero"><div class="wrap">
   <p class="tag">Work</p>
   <h1>Built at scale. <em>Audited</em> under deadline.</h1>
-  <p class="sub">Twenty years of it: the internal automation behind an OTA that grew fifteenfold, ad tech serving thousands of hotels, an engineering function built from nothing, and security and due-diligence audits delivered in a week. Below that, the field notes — the specific things we find when we go looking.</p>
+  <p class="sub">Twenty years of it: the internal automation behind an OTA that grew fifteenfold, ad tech serving thousands of hotels, an engineering function built from nothing, and security and due-diligence audits delivered under a one-week deadline.</p>
 </div></div>
 
 <section><div class="wrap">
@@ -110,77 +110,7 @@
 </div></section>
 
 <section><div class="wrap">
-  <p class="slabel"><b>02</b> — field notes / measurement</p>
-  <h2>When the numbers lie</h2>
-  <p class="lead">These come from our own operations and research rather than anonymised client work. We made most of them with our own money, which is a different kind of qualification — and it is the list an audit is looking for in your stack.</p>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">ATTRIBUTION</span><span>severity: channel-killing</span></div>
-    <h3>A tracked click is not a delivered click</h3>
-    <p>Our click event fired <em>before</em> the outbound navigation, and the outbound used <code>window.open()</code>. Pop-up blockers silently killed the navigation. In our analytics every click looked healthy. On the partner's side there was nothing at all.</p>
-    <p>The discrepancy only surfaced because we compared two systems that should have agreed and didn't: 13 pageviews reported by the partner, all from our own office, against real clicks from two different cities in our own data.</p>
-    <div class="impact">An entire acquisition channel appeared to be working and was delivering zero. Fix: outbound links must be real anchors; fire the event on navigation, not before it.</div>
-  </div>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">REPORTING</span><span>severity: false diagnosis</span></div>
-    <h3>The date range that excludes today</h3>
-    <p>A same-day campaign showed zero delivery. The campaign was fine. The query used <code>LAST_7_DAYS</code>, which in the Google Ads API excludes the current day — so a campaign launched that morning was being measured over a window it did not exist in.</p>
-    <div class="impact">A working campaign was nearly paused on a reporting artifact. Any same-day check must use <code>TODAY</code>.</div>
-  </div>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">TRACKING</span><span>severity: silent inflation</span></div>
-    <h3>Conversions that fire before the lead arrives</h3>
-    <p>The common pattern is to fire the conversion tag on form submit. If the form handler then fails — bad endpoint, CORS, a network blip — the ad platform counts a lead that never reached an inbox. Smart Bidding then optimises toward whatever produced those phantom conversions.</p>
-    <div class="impact">Reported CPL falls while real pipeline stays flat. Fix: fire on a confirmed server response, and verify the lead <em>arrives</em> and the conversion <em>registers</em> as two separate checks.</div>
-  </div>
-</div></section>
-
-<section><div class="wrap">
-  <p class="slabel"><b>03</b> — field notes / research</p>
-  <h2>When the data lies</h2>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">KEYWORD DATA</span><span>severity: voided a business case</span></div>
-    <h3>Headline volumes that were artifacts</h3>
-    <p>A term we had twice flagged as the one open door showed 12,100 searches a month. It was a vendor's brand name — Google normalises it with the branded spelling, and both returned byte-identical rows. Real generic demand was around 800.</p>
-    <p>The same trap, caught three more times: four "cruise ship tracker" variants that normalise to a single keyword rather than four; three "AI project management" phrasings that collapse into one row; a term whose volume swung 55× month to month with a mis-detected language tag.</p>
-    <div class="impact">Two headline numbers in our own research were artifacts. Standing rule: before trusting any volume, check whether it normalises with a brand term or a synonym.</div>
-  </div>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">BID DATA</span><span>severity: wrong by multiples</span></div>
-    <h3>Entry bid is not achieved CPC</h3>
-    <p>Keyword tools report a top-of-page bid. That is what it costs to enter the auction, not what you end up paying. Affordability models built on the wrong field are wrong by a multiple, and always in the optimistic direction.</p>
-    <div class="impact">Every break-even calculation in an early model had to be rebuilt. The two values are now separate fields in our corpus so they cannot be confused again.</div>
-  </div>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">UNIT ECONOMICS</span><span>severity: 1.8× error</span></div>
-    <h3>An assumed commission rate</h3>
-    <p>A model assumed roughly 7% commission. Measuring the actual partner catalogue — 1,884 products, rate stated per product — gave a flat 12.5% across every price tier.</p>
-    <div class="impact">Every break-even was 1.8× too pessimistic and several products written off as unviable were fine. Label every number in a model as measured or assumed, and go measure the assumed ones.</div>
-  </div>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">INTENT</span><span>severity: budget burn</span></div>
-    <h3>A cheap click usually means the wrong intent</h3>
-    <p>Low CPC on a commercial-looking term is rarely a bargain. Measured traps from our own work: a destination campaign whose cheapest traffic was fans of a band with the same name; another whose cheap clicks were bourbon, ice cream and a cycling race; a third that was medical tourism at a $0.00 bid.</p>
-    <p>The B2B version is worse, because it inverts. In consulting a <em>cheap</em> click signals a market with no money in it: a term with 4,400 monthly searches and a $15 top-of-page bid has enormous volume and almost nobody willing to pay for the click, while platform-anchored terms run $80–220 because that click closes implementation work.</p>
-    <div class="impact">Read the search terms report on day two, not day seven. And check the SERP composition before bidding: free tools and "salary" in related searches mean researchers, not buyers.</div>
-  </div>
-
-  <div class="finding">
-    <div class="meta"><span class="tagx">PRODUCT DATA</span><span>severity: killed the premise</span></div>
-    <h3>The pipeline whose best output was a negative</h3>
-    <p>We built a cross-supplier inventory pipeline on the assumption that the same product is widely sold by multiple vendors, so a comparison layer would have something to compare. Once normalised: 1,178 entities, of which only 45 were genuinely multi-supplier.</p>
-    <div class="impact">The product premise did not survive its own data. Better to learn that from a pipeline than from a launch — and the cheapest version of this finding is usually a query, not a build.</div>
-  </div>
-</div></section>
-
-<section><div class="wrap">
-  <p class="slabel"><b>04</b> — method</p>
+  <p class="slabel"><b>02</b> — method</p>
   <h2>What this costs to find</h2>
   <div class="term">
     <div class="term-head"><i></i><i></i><i></i><span>recent screen — five market segments</span></div>
@@ -200,7 +130,7 @@
 </div></section>
 
 <section class="formzone"><div class="wrap">
-  <p class="slabel"><b>05</b> — next</p>
+  <p class="slabel"><b>03</b> — next</p>
   <h2>Want this list run against your stack?</h2>
   <p class="lead">Ten working days, fixed fee, read-only access. You get the findings ranked by money at stake and a fix list your own team can execute.</p>
   <div class="cta-row" style="margin-top:1.4rem">
