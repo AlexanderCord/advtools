@@ -19,10 +19,14 @@ Built on the measured keyword cluster from 2026-09-30 — the only US consulting
 segment that cleared both gates: entry bids under $10 **and** high top-of-page
 bids ($18–149) proving buyers with budget.
 
-Three fixed-fee engagements: attribution audit **$2,500 / 10 days**, server-side
-tracking build **$8,000 / 3 weeks**, warehouse pipeline **$12,000 / 4–6 weeks**.
-The $8,000 anchors deliberately against published DIY server-side cost of
-$8,000–25,000 in year one.
+Three fixed-fee entry points: **Google & Bing campaign audit $2,000 / 10 days**,
+**security & SSDLC audit $10,000 / 1–2 weeks**, **startup due diligence — scoped on
+a call** (fee follows deal size).
+
+The page leads with business problems rather than services — growth, efficiency,
+security, scaling, zero-to-one, marketing automation — and carries the method as
+*audit deep, plan in detail, control execution*, in two modes: planned engagement,
+and crisis work scoped in days.
 
 Vertical emphasis: travel/OTA, hospitality, EdTech — where measurement breaks in
 ways a generalist will not find in five working days.
