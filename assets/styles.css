@@ -296,3 +296,11 @@ footer .row{display:grid;gap:.35rem}
   .arow{display:grid;grid-template-columns:8rem 1fr;gap:1.4rem;align-items:baseline}
   .arow .k{margin-bottom:0}
 }
+
+/* ── caveat / scope note ──────────────────────────────────────────────────── */
+.independence{
+  border-left:2px solid var(--warn);background:rgba(240,184,73,.07);
+  padding:1rem 1.15rem;font-size:.91rem;color:var(--ink-2);
+  border-radius:0 var(--r) var(--r) 0;line-height:1.65;max-width:64ch;
+}
+.independence b{color:var(--warn);font-weight:600}
